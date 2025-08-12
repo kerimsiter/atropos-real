@@ -1,0 +1,438 @@
+Quickstart with Prisma Postgres
+
+Prisma Postgres
+In this Quickstart guide, you'll learn how to get started from scratch with Prisma ORM and a Prisma Postgres database in a plain TypeScript project. It covers the following workflows:
+
+Creating a Prisma Postgres database
+Schema migrations and queries (via Prisma ORM)
+Connection pooling and caching (via Prisma Accelerate)
+note
+If you want to use Prisma Postgres with another ORM or database library (like Drizzle ORM, TypeORM or Kysely), you can follow the instructions here.
+
+Prerequisites
+To successfully complete this tutorial, you need:
+
+a Prisma Data Platform (PDP) account
+Node.js installed on your machine (see system requirements for officially supported versions)
+1. Set up a Prisma Postgres database in the Platform Console
+Follow these steps to create your Prisma Postgres database:
+
+Log in to Prisma Data Platform and open the Console.
+In a workspace of your choice, click the New project button.
+Type a name for your project in the Name field, e.g. hello-ppg.
+In the Prisma Postgres section, click the Get started button.
+In the Region dropdown, select the region that's closest to your current location, e.g. US East (N. Virginia).
+Click the Create project button.
+At this point, you'll be redirected to the Database page where you will need to wait for a few seconds while the status of your database changes from PROVISIONING to CONNECTED.
+
+Once the green CONNECTED label appears, your database is ready to use!
+
+2. Download example and install dependencies
+Copy the try-prisma command that's shown in the Console, paste it into your terminal and execute it.
+
+For reference, this is what the command looks like:
+
+npx try-prisma@latest \
+  --template databases/prisma-postgres \
+  --name hello-prisma \
+  --install npm
+
+Once the try-prisma command has terminated, navigate into the project directory:
+
+cd hello-prisma
+
+3. Set database connection URL
+The connection to your database is configured via an environment variable in a .env file.
+
+First, rename the existing .env.example file to just .env:
+
+mv .env.example .env
+
+Then, in your project environment in the Platform console, find your database credentials in the Set up database access section, copy the DATABASE_URL environment variable and paste them into the .env file.
+
+For reference, the file should now look similar to this:
+
+DATABASE_URL="prisma+postgres://accelerate.prisma-data.net/?api_key=ey...."
+4. Create database tables (with a schema migration)
+Next, you need to create the tables in your database. You can do this by creating and executing a schema migration with the following command of the Prisma CLI:
+
+npx prisma migrate dev --name init
+
+This will map the User and Post models that are defined in your Prisma schema to your database. You can also review the SQL migration that was executed and created the tables in the newly created prisma/migrations directory.
+
+5. Execute queries with Prisma ORM
+The 
+src/queries.ts
+ script contains a number of CRUD queries that will write and read data in your database. You can execute it by running the following command in your terminal:
+
+npm run queries
+
+Once the script has completed, you can inspect the logs in your terminal or use Prisma Studio to explore what records have been created in the database:
+
+npx prisma studio
+
+6. Explore caching with Prisma Accelerate
+The 
+src/caching.ts
+ script contains a sample query that uses Stale-While-Revalidate (SWR) and Time-To-Live (TTL) to cache a database query using Prisma Accelerate. You can execute it as follows:
+
+npm run caching
+
+Take note of the time that it took to execute the query, e.g.:
+
+The query took 2009.2467149999998ms.
+
+Now, run the script again:
+
+npm run caching
+
+You'll notice that the time the query took will be a lot shorter this time, e.g.:
+
+The query took 300.5655280000001ms.
+
+7. Next steps
+In this Quickstart guide, you have learned how to get started with Prisma ORM in a plain TypeScript project. Feel free to explore the Prisma Client API a bit more on your own, e.g. by including filtering, sorting, and pagination options in the findMany query or exploring more operations like update and delete queries.
+
+Explore the data in Prisma Studio
+Prisma ORM comes with a built-in GUI to view and edit the data in your database. You can open it using the following command:
+
+npx prisma studio
+
+With Prisma Postgres, you can also directly use Prisma Studio inside the Console by selecting the Studio tab in your project.
+
+Build a fullstack app with Next.js
+Learn how to use Prisma Postgres in a fullstack app:
+
+Build a fullstack app with Next.js 15
+Next.js 15 example app (including authentication)
+Explore ready-to-run Prisma ORM examples
+Check out the 
+prisma-examples
+ repository on GitHub to see how Prisma ORM can be used with your favorite library. The repo contains examples with Express, NestJS, GraphQL as well as fullstack examples with Next.js and Vue.js, and a lot more.
+
+These examples use SQLite by default but you can follow the instructions in the project README to switch to Prisma Postgres in a few simple steps.
+
+
+Stay connected with Prisma
+Continue your Prisma journey by connecting with our active community. Stay informed, get involved, and collaborate with other developers:
+Follow us on X for announcements, live events and useful tips.
+Join our Discord to ask questions, talk to the community, and get active support through conversations.
+Subscribe on YouTube for tutorials, demos, and streams.
+Engage on GitHub by starring the repository, reporting issues, or contributing to an issue.
+We genuinely value your involvement and look forward to having you as part of our community!From the CLI
+This page provides a step-by-step guide for Prisma Postgres after setting it up with prisma init --db:
+
+Set up a TypeScript app with Prisma ORM
+Migrate the schema of your database
+Query your database from TypeScript
+Prerequisites
+This guide assumes you set up Prisma Postgres instance with prisma init --db:
+
+npx prisma@latest init --db
+
+Show CLI results
+Once this command terminated:
+
+You're logged into Prisma Data Platform.
+A new Prisma Postgres instance was created.
+The prisma/ folder was created with an empty schema.prisma file.
+The DATABASE_URL env var was set in a .env file.
+1. Organize your project directory
+note
+If you ran the prisma init --db command inside a folder where you want your project to live, you can skip this step and proceed to the next section.
+
+If you ran the command outside your intended project directory (e.g., in your home folder or another location), you need to move the generated prisma folder and the .env file into a dedicated project directory.
+
+Create a new folder (e.g. hello-prisma) where you want your project to live and move the necessary files into it:
+
+mkdir hello-prisma
+mv .env ./hello-prisma/
+mv prisma ./hello-prisma/
+
+Navigate into your project folder:
+
+cd ./hello-prisma
+
+Now that your project is in the correct location, continue with the setup.
+
+2. Set up your project
+2.1. Set up TypeScript
+Initialize a TypeScript project and add the Prisma CLI as a development dependency:
+
+npm init -y
+npm install typescript tsx @types/node --save-dev
+
+This creates a package.json file with an initial setup for your TypeScript app.
+
+Next, initialize TypeScript with a tsconfig.json file in the project:
+
+npx tsc --init
+
+2.2. Set up Prisma ORM
+Install the required dependencies to use Prisma Postgres:
+
+npm install prisma --save-dev
+npm install @prisma/extension-accelerate
+
+2.3. Create a TypeScript script
+Create an index.ts file in the root directory, this will be used to query your application with Prisma ORM:
+
+touch index.ts
+
+3. Migrate the database schema
+Update your prisma/schema.prisma file to include a simple User model:
+
+prisma/schema.prisma
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+  posts Post[]
+}
+
+model Post {
+  id        Int     @id @default(autoincrement())
+  title     String
+  content   String?
+  published Boolean @default(false)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+}
+
+After adding the models, migrate your database using Prisma Migrate:
+
+npx prisma migrate dev --name init
+
+4. Send queries with Prisma ORM
+Paste the following boilerplate into index.ts:
+
+index.ts
+import { PrismaClient } from '@prisma/client'
+import { withAccelerate } from '@prisma/extension-accelerate'
+
+const prisma = new PrismaClient().$extends(withAccelerate())
+
+async function main() {
+  // ... you will write your Prisma ORM queries here
+}
+
+main()
+  .then(async () => {
+    await prisma.$disconnect()
+  })
+  .catch(async (e) => {
+    console.error(e)
+    await prisma.$disconnect()
+    process.exit(1)
+  })
+
+This code contains a main function that's invoked at the end of the script. It also instantiates PrismaClient which you'll use to send queries to your database.
+
+4.1. Create a new User record
+Let's start with a small query to create a new User record in the database and log the resulting object to the console. Add the following code to your index.ts file:
+
+index.ts
+import { PrismaClient } from '@prisma/client'
+import { withAccelerate } from '@prisma/extension-accelerate'
+
+const prisma = new PrismaClient().$extends(withAccelerate())
+
+async function main() {
+  const user = await prisma.user.create({
+    data: {
+      name: 'Alice',
+      email: 'alice@prisma.io',
+    },
+  })
+  console.log(user)
+}
+
+main()
+  .then(async () => {
+    await prisma.$disconnect()
+  })
+  .catch(async (e) => {
+    console.error(e)
+    await prisma.$disconnect()
+    process.exit(1)
+  })
+
+Next, execute the script with the following command:
+
+npx tsx index.ts
+
+Show CLI results
+{ id: 1, email: 'alice@prisma.io', name: 'Alice' }
+Great job, you just created your first database record with Prisma Postgres! 🎉
+
+4.2. Retrieve all User records
+Prisma ORM offers various queries to read data from your database. In this section, you'll use the findMany query that returns all the records in the database for a given model.
+
+Delete the previous Prisma ORM query and add the new findMany query instead:
+
+index.ts
+import { PrismaClient } from '@prisma/client'
+import { withAccelerate } from '@prisma/extension-accelerate'
+
+const prisma = new PrismaClient().$extends(withAccelerate())
+
+async function main() {
+  const users = await prisma.user.findMany()
+  console.log(users)
+}
+
+main()
+  .then(async () => {
+    await prisma.$disconnect()
+  })
+  .catch(async (e) => {
+    console.error(e)
+    await prisma.$disconnect()
+    process.exit(1)
+  })
+
+Execute the script again:
+
+npx tsx index.ts
+
+Show CLI results
+[{ id: 1, email: 'alice@prisma.io', name: 'Alice' }]
+Notice how the single User object is now enclosed with square brackets in the console. That's because the findMany returned an array with a single object inside.
+
+4.3. Explore relation queries
+One of the main features of Prisma ORM is the ease of working with relations. In this section, you'll learn how to create a User and a Post record in a nested write query. Afterwards, you'll see how you can retrieve the relation from the database using the include option.
+
+First, adjust your script to include the nested query:
+
+index.ts
+import { PrismaClient } from '@prisma/client'
+import { withAccelerate } from '@prisma/extension-accelerate'
+
+const prisma = new PrismaClient().$extends(withAccelerate())
+
+async function main() {
+  const user = await prisma.user.create({
+    data: {
+      name: 'Bob',
+      email: 'bob@prisma.io',
+      posts: {
+        create: [
+          {
+            title: 'Hello World',
+            published: true
+          },
+          {
+            title: 'My second post',
+            content: 'This is still a draft'
+          }
+        ],
+      },
+    },
+  })
+  console.log(user)
+}
+
+main()
+  .then(async () => {
+    await prisma.$disconnect()
+  })
+  .catch(async (e) => {
+    console.error(e)
+    await prisma.$disconnect()
+    process.exit(1)
+  })
+
+Run the query by executing the script again:
+
+npx tsx index.ts
+
+Show CLI results
+{ id: 2, email: 'bob@prisma.io', name: 'Bob' }
+In order to also retrieve the Post records that belong to a User, you can use the include option via the posts relation field:
+
+index.ts
+import { PrismaClient } from '@prisma/client'
+import { withAccelerate } from '@prisma/extension-accelerate'
+
+const prisma = new PrismaClient().$extends(withAccelerate())
+
+async function main() {
+  const usersWithPosts = await prisma.user.findMany({
+    include: {
+      posts: true,
+    },
+  })
+  console.dir(usersWithPosts, { depth: null })
+}
+
+main()
+  .then(async () => {
+    await prisma.$disconnect()
+  })
+  .catch(async (e) => {
+    console.error(e)
+    await prisma.$disconnect()
+    process.exit(1)
+  })
+
+Run the script again to see the results of the nested read query:
+
+npx tsx index.ts
+
+Show CLI results
+[
+  { id: 1, email: 'alice@prisma.io', name: 'Alice', posts: [] },
+  {
+    id: 2,
+    email: 'bob@prisma.io',
+    name: 'Bob',
+    posts: [
+      {
+        id: 1,
+        title: 'Hello World',
+        content: null,
+        published: true,
+        authorId: 2
+      },
+      {
+        id: 2,
+        title: 'My second post',
+        content: 'This is still a draft',
+        published: false,
+        authorId: 2
+      }
+    ]
+  }
+]
+This time, you're seeing two User objects being printed. Both of them have a posts field (which is empty for "Alice" and populated with two Post objects for "Bob") that represents the Post records associated with them.
+
+Next steps
+You just got your feet wet with a basic Prisma Postgres setup. If you want to explore more complex queries, such as adding caching functionality, check out the official Quickstart.
+
+View and edit data in Prisma Studio
+Prisma ORM comes with a built-in GUI to view and edit the data in your database. You can open it using the following command:
+
+npx prisma studio
+
+With Prisma Postgres, you can also directly use Prisma Studio inside the Console by selecting the Studio tab in your project.
+
+Build a fullstack app with Next.js
+Learn how to use Prisma Postgres in a fullstack app:
+
+Build a fullstack app with Next.js 15
+Next.js 15 example app (including authentication)
+Explore ready-to-run examples
+Check out the 
+prisma-examples
+ repository on GitHub to see how Prisma ORM can be used with your favorite library. The repo contains examples with Express, NestJS, GraphQL as well as fullstack examples with Next.js and Vue.js, and a lot more.
+
+These examples use SQLite by default but you can follow the instructions in the project README to switch to Prisma Postgres in a few simple steps.
+
+
+Stay connected with Prisma
+Continue your Prisma journey by connecting with our active community. Stay informed, get involved, and collaborate with other developers:
+Follow us on X for announcements, live events and useful tips.
+Join our Discord to ask questions, talk to the community, and get active support through conversations.
+Subscribe on YouTube for tutorials, demos, and streams.
+Engage on GitHub by starring the repository, reporting issues, or contributing to an issue.
+We genuinely value your involvement and look forward to having you as part of our community!

@@ -1,0 +1,1048 @@
+GoPOS’UN BAZI ÖNEMLİ ÖZELİKLERİ
+Getir Yemek Entegrasyonu
+GoPOS Restoran Otomasyon Programı, Getir.com İle Tam Entegre Çalışmaktadır. Getir Yemek Gelen Siparişler Paket Servis Ekranına Düşer Ve Otomatik Yazdırır Getir Entegrasyonu İle Sipariş İşlemleriniz Tek Bir Noktadan Kontrol Edilir.
+
+Trendyol Yemek Entegrasyonu
+GoPOS Restoran Otomasyon Programı, Trendyol.com İle Tam Entegre Çalışmaktadır. Trendyol Yemek İle Gelen Siparişler Paket Servis Ekranına Düşer Ve Otomatik Yazdırır Yemek Sepeti Entegrasyonu İle Sipariş İşlemleriniz Tek Bir Noktadan Kontrol Edilir.
+
+Yemek Sepeti Entegrasyonu
+GoPOS Restoran Otomasyon Programı, Yemeksepti.com İle Tam Entegre Çalışmaktadır. Yemeksepeti İle Gelen Siparişler Paket Servis Ekranına Düşer Ve Otomatik Yazdırır Yemek Sepeti Entegrasyonu İle Sipariş İşlemleriniz Tek Bir Noktadan Kontrol Edilir.
+
+Migros Yemek Entegrasyonu
+Migros Yemek  İle Tam Entegre Çalışmaktadır. Migros Yemek Gelen Siparişler Paket Servis Ekranına Düşer Ve Otomatik Yazdırır, Migros  Yemek ve Diğer Online Yemek Siteleri Entegrasyonu İle Sipariş İşlemlerinizi Tek Bir Noktadan Kontrol Edilir.
+
+Sabit, Voip Telefon ( Netgsm, Telsam )
+Sabit Hattınızı Veya VOİP hattınızı (Telsam, Netgsm) Sisteme Yönlendirip Gelen Aramaları Görebilir, Tek Tık İle Sistemde Kaydını Oluşturup Paket Servis Siparişlerinizi Hızlandırabilirsiniz.
+
+PayTr Entegrasyonu
+GoPOS  Android Mobil Uygulaması  PayTR Entegrasyon  İle Hızlı Bir Şekilde Ödemelerinizi Alın.
+
+Rapor ve Analizler.
+Ünler, iade, ikram. İskonto ve Çalışanlar Hakkında Ayrıntılı Raporlar ve Analizler Alın.
+
+GoPOS Yazar Kasa
+GoPOS Adisyon Programı Yazar Kasa ve Mobil POS Cihazları Hugin, İngenico İle Entegre Çalışıyor.
+
+24/7 Teknik Destek
+Sistemimizle İlgili Herhangi Bir Sorun Olması Durumunda 24/7 Teknik Destek.
+
+GoPOS Sadakat Kartı
+GoPOS Sadakat Kartı İle Müşterilerinize Puan, İndirim, Para Ekleme ve Kullanıcı Kartıyla Sisteme Giriş Yapma Gibi Bir Çok Özelikler Suniyor
+
+GoPOS SMS
+İşletmenizin Adıyla Müşterilerinize Toplu veya özel SMS şablonlarıyla bilgilendirme SMS ‘i gönderebilirsiniz.
+
+GoPOS Tüm İşletmelere Uygun.
+Restoran, Cafe & Bar, Plaj & Havuz, Paket Servisi, Pastane, Fast Food, Lokanta.
+
+Basit ve Kolay Tüm Cihazlarda Çalışır.
+Sezgisel Tasarımı Sayesinde Kolay Öğrenilir. GoPOS Cafe Restoran otomasyonu Windows 10, İos ve Android Mobil işletim sistemine sahip bilgisayar ve tabletlerde çok basit çalışır.
+
+GoPOS Mobil Raporlama
+Mobil Raporlama İle İşletmenizle İlgili Tüm Rapor Verilerini İOS & Android Adisyon Programı Uygulama Üzerinde İstediğiniz Yerde Takip Edin.
+
+GoPOS İnternet Olmadan da Çalışır
+GoPOS Cafe Restoran Programı Çevrimiçi ve Çevrimdışı, Hızlı Güvenli ve Sorunsuz Tüm Cihazları Destekler.
+
+GoPOS Grup Müşterilerde Sipariş Alma
+Özel Olarak Tasarlanmış Alt Yapısıyla Gruplarda Sipariş Almak 1 Masada İçinde Sipariş Alırken Grup Adı Seçerek Sipariş Alınır, Adisyonları Tek Tıkla Ayrılıp ve Hesapları Ayrı Ayrı Otomatik Yazdırır.
+
+Franchise & Çoklu Şube Yönetimi
+*GoPOS franchise çevrimiçi çevrimdışı ideal çözümü sunar
+*Tüm şubelerinizi tek hesap altında yönetin.
+*Satışlarınız, Stoklarınız, Çalışanlarınız, Müşterileriniz bilmeniz gereken her şeyi tek bir pencereden izlemenizi sağlar.
+
+QR Mobile, Tablet Menu
+GoPOS’ta Eklediğiniz Kategori ve Ürünleriniz Anında Online Mobil ve Tablet Menüye Dönüştürüyor. Fiziksel Menü Basma, Ürün Güncelleme,  Fiyat Değiştirme Maliyetlerine Son.
+
+GoPOS Stok Yönetimi
+Ürünlerinizin stok girişlerini ve takibini yapabilirsiniz. Kritik stok özelliği ile stoklarınızda azalan ürünleri sizi uyararak bilgilendirir. Fiziksel sayım özelliği ile stoklarınızı günlük, haftalık, aylık veya istediğiniz tarihlerde sayım yapabilirsiniz
+
+Ürünler ve Menüler
+Ürünler menü grupları oluşturabilirsiniz, Ürünlere ek özellikler verebilir, ek özellikler içinde fiyat belirleyebilirsiniz. Ürünler için Az,Tek,1.5 ve Duble porsiyonlar tanımlayabilir ve fiyatlandırabilirsiniz.
+
+Gider Yönetimi
+Personel ücretlerinizi, ürün firelerinizi, kira, elektrik, Manav, Kasap vergi vs. ödemelerinizi gider olarak kaydedebilirsiniz. “İşletme Net Kâr Raporu” ile giderleriniz düşüldükten sonra net kârınızı görebilirsiniz
+
+GoPOS Inventory, Ürün Reçetelendirme Yönetimi
+Ürün reçetesi hazırlanan mamullerin hammaddelerinden oluşturulan maliyet etiketidir. Satılan ürünleri oluşturan hammaddeleri ekleyerek her satışta eklenen oranda stoktan düşmesini sağlamaktadır. Bu sayede maliyet analizleri daha sağlıklı ve minimum fire verilerek görülmektedir.
+
+GoPOS Mobil Caller ID
+Gelen Arama esnasında tüm müşteri bilgilerine anında erişim sağlayın. GoPOS Mobil Caller ID Android sistemlerde kullandığınız cihazınıza bir çağrı geldiğinde, bu çağrı GoPOS otomasyon uygulaması üzerinde direkt olarak görülebilir.
+
+Cari Hesapları Yönetin
+Müşteri, tedarikçi, bayi ve personellerinizin borç/alacak hesaplarını takip edin
+
+Kuryelerinizi Anlık Takip Edin
+* Kuryelerinizi harita üzerine takip edin,
+* Kuryeleriniz müşteri adreslerini tek tıkla harita üzerinde görebilir,
+* Müşterinize göndereceğiniz sms ile harita üzerinde siparişini takip edebilir,
+* kuryeler paket servis siparişleri GoPOS mobil uygulama üzerinde takip edebilir.
+
+Rezervasyon
+GoPOS’la Online ve Ofline Rezervasyon sistemi ile müşterilerinizden rezervasyon almak ve rezervasyonları takip  çok  kolay
+✔Takvim üzerinde rezervasyonlarınızı kolayca yönetebilirsiniz
+✔Rezervasyona açık veya kapalı gün ve saatleri belirleyebilirsiniz
+✔Rezervasyon taleplerini onaylayabilir veya iptal edebilirsiniz
+✔Müşteriler rezervasyonlarını kolayca güncelleyebilir veya iptal edebilir
+
+Online Sipariş Sistemi
+Müşterilerinizden kendi online sipariş sisteminiz ile sipariş alabilirsiniz
+✔Tüm online siparişleri tek bir ekranda yönetin
+✔Siparişleri onaylayabilir ve değiştirebilirsiniz
+✔Hazırlanma ve yola çıkma bilgilerini iletebilirsiniz
+✔POS, tablet, akıllı telefon, PC ve Mac ile uyumludur
+✔Mutfak için özel sipariş ekranı kurabilirsiniz
+✔Teslimata hazır siparişleri kuryelerinize atayabilirsiniz
+
+
+Genel Özellikler
+∗ Sipariş Mutfak ve Bar Ekranı
+∗ Sınırsız menü, kategori ve ürün yapılandırması
+∗ Ürün seçenekleri ve seçenek grupları oluşturma
+∗ Şifre ve yetkilendirme ile personel giriş kontrolü
+∗ Seçenek, miktar ve fiyata göre sipariş alma
+∗ Siparişlerde ikram, iptal ve iade özellikleri
+∗ Sipariş gruplama, bölme ve birleştirme
+∗ Hızlı satış özelliğiyle kasadan satış yapma
+∗ Kasa ve mutfak yazıcılarından sipariş ve ödeme yazdırma
+∗ Nakit, kredi kartı, döviz ve ticket ile ödeme alma
+∗ Ödemeleri cari hesaplara borç olarak aktarma
+∗ Sınırsız kat ve masa yerleşim planı oluşturma
+∗ Masa değiştirme, taşıma ve birleştirme
+∗ Gün özeti, satışlar ve tahsilat raporları
+∗ Stok hareketleri, uyarılar ve raporlar
+∗ Ürün resimlerine dokunarak sipariş alma
+∗ Periyodik sayımlarıyla stok seviyelerini doğrulama
+∗ Yedekleme, geri yükleme ve bulut senkronizasyonu
+
+
+Kurye Takip Sistemi
+* Kuryelerinizi harita üzerine takip edin
+* Kuryeleriniz müşteri adreslerini tek tıkla harita üzerinde görebilir
+* Müşterinize göndereceğiniz sms ile harita üzerinde siparişini takip edebilir,
+* kuryeler paket servis siparişleri GoPOS mobil uygulama üzerinde takip edebilir.Menüde ürün arama,
+∗ Yetkiye göre ikram/iade yapabilme,
+∗ Ön tanımlı ikram ürünü kullanabilme,
+∗ Menü alt özelliklerinin otomatik ekleyebilme,
+∗ Alt özellik sayfası tanımlayabilme,
+∗ Dik veya yatay ekran kullanımı,
+∗ Siparişe özel istek girebilme,
+∗ Adisyona not ekleme,
+∗ Masaya not ekleme,
+∗ Yetkilendirilmiş iskonto yapabilme,Özel yazıcı şablonu tasarlama,
+∗ Sınırsız adisyon yazıcısı tanımlama,
+∗ Sınırsız mutfak yazıcısı tanımlama,
+∗ Sınırsız hesap yazıcısı tanımlama,
+∗ Departmanlara göre yazıcı tanımlama,
+∗ Ürün alt özelliklerini yazdırma,
+∗ Restoran logosu ekleme,Aynı masada grup adisyon açabilme,
+∗ Aynı masaya alt adisyon açabilme,
+∗ Menüde ürün arama,
+∗ Masa bölme / taşıma / birleştirme,
+∗ Alman usulü ödeme alabilme,
+∗ Farklı para birimlerinde ödeme alabilme,Menulux POS Sistemleri - Telefon Icon
+Menulux POS Sistemleri - Menulux Black Logo
+Pos Sistemleri
+Menulux POS Sistemleri - Arrow icon 5
+Sipariş Çözümleri
+Menulux POS Sistemleri - Arrow icon 6
+Kurumsal
+Menulux POS Sistemleri - Arrow icon 7
+Referanslar
+İletişim
+EN
+Giriş Yap
+MENULUX RESTAURANT POS SİSTEMİ
+En iyi Restoran Adisyon Programı & POS Sistemi
+Restoran, cafe ve zincir işletmeler için yeni nesil bulut POS sistemi ve adisyon programı.
+
+Teklif iste
+Menulux POS Sistemi - Restoran Adisyon Programı - Müşteri Ekranı
+Menulux POS Sistemi - Restoran Adisyon Programı - Sipariş Ekranı
+Menulux Restoran POS Sistemini keşfedin
+Hemen satış yapmaya başlayın
+Menulux POS sistemi kullanıcı dostu görsel arayüzü ile hızlı ve güvenilir bir restoran adisyon programıdır. Menulux POS sistemi ile ürünlerinizi dakikalar içinde tanımlayabilir ve hemen sipariş almaya başlayabilirsiniz.
+
+Bulut sistem ve Offline çalışma özelliği
+Restoran POS sistemi yeni nesil bulut tabanlı bir adisyon programıdır. Ayrıca güçlü çevrimdışı çalışma desteği de sunar. Bu sayede POS sisteminiz internet kesintisi olsa bile günlerce çalışmaya devam eder.
+
+Yetenekli ve Gelişmiş POS sistemi
+Restoran POS sistemi, barkodlu satış, masa siparişi, paket sipariş, adisyon ve cari hesap yönetimi gibi birçok özelliği bünyesinde barındıran yetenekli bir adisyon programıdır. Bu temel özelliklere ek olarak online sipariş entegrasyonu, yazarkasa entegrasyonu, stok ve rezervasyon sistemi gibi gelişmiş özelliklere de sahiptir.
+
+Teklif iste
+Siparişleri, adisyonları ve masaları yönetin!
+Masaları taşıyın veya birleştirin
+Restoran POS sistemi ile adisyonları toplu olarak veya sipariş kalemlerine bölerek taşıyabilir ve masa üzerinde birleştirebilirsiniz. Ayrıca düzenli müşterilerinize özel isimlerle masa tanımlayabilir ve tüm masaları kuşbakışı yönetebilirsiniz.
+
+Siparişleri böl, iptal et veya iade al
+Restoran adisyon programında ürünleri seçerek kolayca ikram, iptal veya iade yapabilirsiniz. Sipariş kalemlerini seçerek tek dokunuşla adisyon bölebilir, dilediğiniz ürünleri de diğer masalara kolayca taşıyabilirsiniz.
+
+Eft-POS, Slip, e-Fatura entegrasyonu
+Restoran otomasyon sisteminin mali entegrasyonları sayesinde yazarkasa Eft-POS cihazlarından ödeme alarak mali fiş yazdırabilirsiniz. Restoran adisyon programı ile SLIP fatura yazıcılarından fatura yazdırabilir, e-Fatura entegrasyonu üzerinden e-arşiv ve e-fatura gönderebilirsiniz.
+
+Teklif iste
+Menulux POS Sistemi - Restoran Adisyon Programı - Masalar Ekranı
+Menulux POS Sistemi - Restoran Adisyon Programı - Paket Sipariş Ekranı
+Online siparişlerinizi tek ekranda yönetin!
+Online ve paket siparişleri yönetin
+Restoran POS sistemi ile telefonla arayan müşterilerden ve online sipariş uygulamalarından paket siparişi alabilirsiniz. Restoran adisyon programı Yemek Sepeti, Getir, Trendyol, Migros ve Fuudy ile entegre olarak online siparişlerinizi kolaylıkla yönetmenizi sağlar.
+
+Müşterilerinizi bilgilendirin
+Restoran POS sistemi sayesinde online ve paket siparişlerinizi tek bir ekranda yöneterek hataları en aza indirebilir, sipariş detaylarını ve durumlarını kolayca takip edebilirsiniz. Müşterilerinize siparişleri ile ilgili "Yolda", "Teslim Edildi" gibi bilgileri tek dokunuşla gönderebilirsiniz.
+
+Kurye uygulamasını edinin
+Restoran POS sistemi ve kurye uygulamasını bir arada kullanarak online siparişlerinizi daha verimli yönetebilirsiniz. Kuryeler için özel olarak tasarlanmış bu uygulama ile kuryelere sipariş atayabilir, kurye lokasyonlarını harita üzerinde gözlemleyebilir ve siparişleri en verimli şekilde teslim edebilirsiniz.
+
+Teklif iste
+Gelişmiş raporlar ve analizler
+Satışlarınızı analiz edin ve raporlayın
+Restoran POS sistemi üzerinden gün sonu, kasa, ürün satışları, adisyonlar, tahsilatlar gibi tüm raporlara istediğiniz anda ulaşabilirsiniz. Görsel grafikler ve raporlarla detaylı analizler yaparak restorandaki sipariş süreçlerini ve iş akışını buna göre planlayabilirsiniz.
+
+Kasa hareketleri ve cari hesaplar
+Restoran POS sisteminde tüm kasa işlemlerinizi anında görebilir, adisyonları inceleyebilirsiniz. Cari hesapların alacak ve borçlarını takip edebilir, yeni müşteri, tedarikçi veya ödenmez cari hesaplar oluşturabilirsiniz.
+
+Stok yönetimi ve personel takibi
+Menulux restoran otomasyon sistemi ile stok hareketlerinizi anlık olarak takip edebilirsiniz. Ürün ve hammadde stoklarınızı periyodik olarak doğrulayabilir, personellerinize ve kuryelerinize ait istatistikler ile analiz yapabilirsiniz.
+
+Teklif iste
+Menulux POS Sistemi - Restoran Adisyon Programı - Raporlar Ekranı
+Özellikler
+Menulux POS Sistemleri - Bulut icon
+Bulut POS
+Sistemi
+Menulux POS sistemi Android cihazlar için bulut tabanlı restoran adisyon programı uygulamasıdır. Bir tablete yükleyerek hemen deneyin.
+
+Menulux POS Sistemleri - Store icon
+Tüm İşletmeler
+için Uygun
+Restoran, cafe, pastane, kahve dükkanları, oteller, perakende satış işletmeleri ve tüm zincir işletmeler için uygundur.
+
+Menulux POS Sistemleri - Mobil icon
+Online ve Mobil
+Raporlama
+Bulut sistem altyapısı sayesinde bilgisayar, tablet veya akıllı telefon üzerinden tüm bilgilerinize anlık olarak erişebilir, işletmenizi kolayca yönetebilirsiniz.
+
+Menulux POS Sistemleri - Offline icon
+Offline
+Çalışma
+Offline çalışma özelliği sayesinde internet kesilse de POS sisteminiz kesintisiz olarak çalışmaya devam eder.
+
+Menulux POS Sistemleri - Stock icon
+Stok Takibi
+Stok ve reçete sistemi sayesinde yiyecek ve içecek stokları ile ürün reçetelerine bağlı hammadde stoklarını anlık olarak takip edersiniz.
+
+Menulux POS Sistemleri - Cari icon
+Cari Hesaplar
+Müşteri, tedarikçi, üye kartları, personel ve ödenmez türünde cari hesaplar oluşturabilir, alacak ve borçlarınızı takip edebilirsiniz.
+
+Menulux POS Sistemleri - Kurye icon
+Online Sipariş
+Yemeksepeti, Getir, Trendyol, Migros ve Fuudy entegrasyonları sayesinde online siparişlerinizi takip etmenizi sağlar.
+
+Menulux POS Sistemleri - Terazi icon
+Entegrasyonlar
+Caller ID, barkod okucu, barkodlu teraziler, SLIP yazıcıları, Ingenico ve Pavo yazarkasalar ve E-fatura sistemleri ile entegre çalışabilirsiniz.
+
+Tümüyle entegre hepsi bir yerde
+Menulux restoran programı ile birlikte kullanmak istediğiniz diğer cihazlar, muhasebe yazılımları ve online sistemlerle entegre olmakta vakit kaybetmeyin.
+
+Restoran programı, online sipariş, online ödeme, muhasebe ve ERP yazılımları, Eft-POS (ÖKC) cihazları, yazarkasalar, Caller ID, POS yazıcı, SLIP yazıcı, barkodlu ve barkodsuz terazi gibi tüm cihazlarla entegre çalışır.
+
+Menulux POS Sistemleri - Logo Entegrasyonu
+Menulux POS Sistemleri - Mikro Entegrasyonu
+Menulux POS Sistemleri - Netsis Entegrasyonu
+Menulux POS Sistemleri - Hamurlabs Entegrasyonu
+Menulux POS Sistemleri - Getir Yemek Entegrasyonu
+Menulux POS Sistemleri - Yemeksepeti Entegrasyonu
+Menulux POS Sistemleri - Trendyol Yemek Entegrasyonu
+Menulux POS Sistemleri - Iyzico Entegrasyonu
+Menulux POS Sistemleri - E-Fatura Entegrasyonu
+Menulux POS Sistemleri - E-Arşiv Entegrasyonu
+Menulux POS Sistemleri - NetGSM Entegrasyonu
+Menulux POS Sistemleri - Ingenico Yazarkasa Entegrasyonu
+Tümünü Göster
+Tablet POS Sistemi
+Menulux POS Sistemi - Restoran Adisyon Programı - Tablet POS Sistemi
+Bulut tabanlı Android Tablet POS ile hemen satışa başlayın
+
+Küçük işletmeler için
+Menulux POS Sistemleri - Checkmark icon 1Android tablet cihaz
+Menulux POS Sistemleri - Checkmark icon 2Online ve offline çalışma
+Menulux POS Sistemleri - Checkmark icon 3Hızlı ve sıcak satış
+Menulux POS Sistemleri - Checkmark icon 4Adisyon ve sipariş takibi
+Menulux POS Sistemleri - Checkmark icon 5POS yazıcılarıyla entegre
+Menulux POS Sistemleri - Checkmark icon 6Web ve mobil raporlama
+Teklif iste
+Smart POS Sistemi
+Menulux POS Sistemi - Restoran Adisyon Programı - Smart POS Sistemi
+Kompakt ve kullanıcı dostu yapısıyla her an satışa hazır olun
+
+Küçük işletmeler için
+Menulux POS Sistemleri - Checkmark icon 7Tablet POS'un tüm özellikleri
+Menulux POS Sistemleri - Plus Sign icon 1Endüstriyel Mini Android Cihaz
+Menulux POS Sistemleri - Plus Sign icon 2Caller ID ve terazi bağlantısı
+Menulux POS Sistemleri - Plus Sign icon 3Online ve paket sipariş takibi
+Menulux POS Sistemleri - Plus Sign icon 4Stok yönetim sistemi
+Menulux POS Sistemleri - Plus Sign icon 5Barkod okuyucu ile satış
+Teklif iste
+Profesyonel POS Sistemi
+Menulux POS Sistemi - Restoran Adisyon Programı - Profesyonel POS Sistemi
+Yüksek performans ve güvenilir altyapısıyla tüm iş akışınızı yönetin
+
+Orta büyüklükte işletmeler için
+Menulux POS Sistemleri - Checkmark icon 8Smart POS'un tüm özellikleri
+Menulux POS Sistemleri - Plus Sign icon 6Endüstriyel Android POS Terminal
+Menulux POS Sistemleri - Plus Sign icon 7KDS Mutfak sipariş ekranı
+Menulux POS Sistemleri - Plus Sign icon 8SLIP fatura yazıcılarıyla entegre
+Menulux POS Sistemleri - Plus Sign icon 9Reçete yönetim sistemi
+Menulux POS Sistemleri - Plus Sign icon 10Çoklu terminal çalışma (5 cihaz)
+Teklif iste
+Premium POS Sistemi
+Menulux POS Sistemi - Restoran Adisyon Programı - Premium POS Sistemi
+Üstün kalite ve zarif tasarımı ile göz alıcı bir deneyim yaşayın
+
+Orta ve büyük işletmeler için
+Menulux POS Sistemleri - Checkmark icon 9Profesyonel POS'un tüm özellikleri
+Menulux POS Sistemleri - Plus Sign icon 11Premium Android POS Terminal
+Menulux POS Sistemleri - Plus Sign icon 12Şık tasarım, yüksek performans
+Menulux POS Sistemleri - Plus Sign icon 13Mali yazarkasa entegrasyonu
+Menulux POS Sistemleri - Plus Sign icon 14Merkezi yönetim sistemi
+Menulux POS Sistemleri - Plus Sign icon 15Rezervasyon yönetim sistemi
+Menulux POS Sistemleri - Plus Sign icon 16Sadakat yönetim sistemi
+Menulux POS Sistemleri - Plus Sign icon 17Çoklu terminal çalışma (Sınırsız)
+Teklif iste
+Menulux POS Sistemi ile en güçlü ve güvenilir yazılım çözümlerine uygun fiyatlarla sahip olun
+Restoran, cafe, market ve zincir işletmeler için geliştirilen yeni nesil bulut tabanlı POS sistemi fiyatlarını inceleyin.
+
+Fiyatları İnceleyin
+Cihaz ve donanımları inceleyin
+İhtiyaç duyduğunuz POS terminalleri, yazıcılar ve aksesuarlar burada!
+
+Cihazları İnceleyin
+Entegrasyon çözümlerini inceleyin
+Online sipariş, mobil ödeme ve muhasebe ERP Entegrasyonlarını inceleyin.
+
+Entegrasyonları İnceleyin
+İhtiyacınız olan her şey
+Menulux POS sistemi, konuklarınızı en iyi şekilde ağırlamak, sipariş, adisyon ve tahsilat süreçlerinizi yönetmek, satışlarınızı artırmak ve işinizi büyütmek için ihtiyacınız olan her şeyi bir arada sunar.
+
+Menulux POS Sistemleri - Cafe Restoran Otomasyonu - Adisyon Programı
+Yeni Nesil POS Sistemleri
+İşletmenizi uçtan uca yönetin
+
+Restoran
+Cafe
+Market
+Menulux POS Sistemleri - Dijital Qr Menü - Tablet Menü
+Dijital Menü & Sipariş
+Maliyetleri azaltın, işleri hızlandırın
+
+QR Menü
+Tablet Menü
+Menulux POS Sistemleri - Online Web Portal - Mobil Rapor
+Yönetim ve Raporlama
+Her an her yerde kontrol sizde
+
+Web Portal
+Mobil Raporlama
+Menulux POS Sistemleri - Garson El Terminali - Kurye App
+Garson & Kurye Takip
+Hızlı ve sorunsuz sipariş yönetimi
+
+Kurye POS Sistemi
+Garson El Terminali
+Müşteri Yorumları
+Serpils Panino
+Menulux POS Sistemleri kullanımından memnuniyet duyan Serpils Panino işletmesi, işlevselliği ve kalitesiyle Menulux'un farkını hissediyor.
+
+Sommario Coffee Company
+Sommario Coffee Company Restoran Adisyon Programı için Menulux POS Sistemlerini tercih etti. Müşterilerimizin memnuniyetini görmek bizi her zaman mutlu ediyor!
+
+Afife Kruvasan
+Afife Kruvasan sunduğumuz kapsamlı özelliklerimiz sayesinde Menulux POS Sistemlerini tercih etti. Afife Kruvasan ailesinin memnuniyetleri bize duydukları güvenin bir göstergesidir.
+
+Emirgan Sütiş olarak şubelerimizde müşterilerimizden en hızlı şekilde sipariş alarak hatasız hizmet verebilmek için yıllardır Menulux POS sistemini kullanıyoruz. Menulux restoran adisyon programının yetenekli özelliklerinden, dijital menü sisteminden ve müşteri destek hizmetlerinden çok memnunuz.
+
+Emirgan Sütiş, İstanbul
+Japon mutfağının eşsiz örneklerini sunduğumuz restoranlarımızda sipariş, fatura ve ödemelerin yönetilmesinde büyük hız ve kolaylık sağlayan Menulux restoran adisyon programını kullanıyoruz. Restoran programının güçlü özellikleri, gelişmiş entegrasyonları ve kesintisiz desteği için Menulux'e teşekkür ederiz.
+
+Inari Omakase, İstanbul
+EspressoPark şubelerimizde hızlı satış işlemlerimizi hatasız gerçekleştirmek için Menulux POS sistemlerinin sunduğu yeni nesil restoran programı ve adisyon sistemini kullanıyoruz. Menulux'e işletmemize gösterdiği ilgi ve destekten dolayı teşekkür ederiz.
+
+EspressoPark, İstanbul
+Kolay arayüzleri, hatasız ve hızlı çalışması ve gelişmiş entegrasyonları nedeniyle Elmacıoğlu Restoranımızda Menulux POS sistemine geçtik. Menulux restoran programı sayesinde sipariş ve fatura yönetimi, yazarkasa entegrasyonu ve Logo veri aktarımındaki tüm sorunlarımız çözüldü.
+
+Elmacıoğlu Restoran, Kayseri
+Salash Burger olarak kalitemizi en iyi şekilde sunma iddiamızı Menulux POS sistemini kullanarak destekliyoruz. Yemek Sepeti, Getir, Tredyol, Migros ve Fuudy gibi yemek sitelerinden gelen online siparişleri de restoran programının gelişmiş entegrasyonları sayesinde kolaylıkla yönetiyoruz.
+
+Salash Burger, Kocaeli
+Tüm müşteri yorumları için Youtube kanalını ziyaret edin
+Menulux Youtube
+2000+
+referanslarımıza göz atın
+
+Menulux POS Sistemleri - Arrow icon
+Menulux POS Sistemleri - Müşteri Listesi - Referanslar
+Sıkça Sorulan Sorular
+Menulux Restoran POS Sistemi nedir ve nasıl çalışır?
+Menulux Restoran Adisyon Programının avantajları nelerdir?
+Menulux Restoran Adisyon Programının online sipariş entegrasyonu var mı?
+Menulux Restoran Adisyon Sistemi hangi işletme türleri için uygundur?
+Menulux Restaurant Adisyon Sisteminin fiyatlandırma modeli nedir?
+Menulux Restaurant POS Sistemini nasıl satın alabilirim?
+Hemen sizi arayalım!
+Ad Soyad
+Telefon
+E-posta
+Şehir
+Şirket Adı
+Beni arayın
+Ürün danışmanımızla
+iletişime geçin
+Menulux POS Sistemi - Phone icon
+0850 346 6586
+Menulux POS Sistemi - Customer vector
+Dünyada MENULUX
+Menulux Bilgi Teknolojileri - Yazılım Hizmetleri - Dünyada Menulux
+Türkiye, İngiltere, Almanya, Fransa, İsviçre, Suudi Arabistan başta olmak üzere toplamda 24 ülkede Menulux POS Sistemleri aktif olarak kullanılmaktadır.
+Hemen tüm referanslarımızı incelemek için tıklayın.
+Menulux App Store
+Apple Store
+Menulux Apple Store uygulama mağazasını ziyaret edin.
+
+Menulux App Store
+Menulux Boss iOS
+iPhone Mobil Raporlama Uygulaması
+
+Menulux Garson iOS
+iOS Garson El Terminali & Sipariş Uygulaması
+
+Menulux iPad Menu
+Cafe & Restoranlar için Dijital iPad Menü
+
+Menulux Pocket Menu
+Apple iPhone için Dijital Cep Menü
+
+Accra Chocolate iOS
+Accra Chocolate iPhone Sipariş Uygulaması
+
+Inari Omakase iOS
+Inari Omakase iPhone Sipariş Uygulaması
+
+Google Play
+Menulux Google Play uygulama mağazasını ziyaret edin.
+
+Menulux Google Play Store
+Menulux POS Sistemi
+Cafe & Restoranlar için Android POS sistemi
+
+Menulux Garson
+Android Garson El Terminali & Sipariş Uygulaması
+
+Menulux Customer Display
+Menulux POS için Müşteri Ekranı Uygulaması
+
+Menulux Boss
+Android Mobil Raporlama Uygulaması
+
+Menulux Tablet Menu
+Cafe & Restoranlar için Dijital Tablet Menü
+
+Menulux Cep Menu
+Android Telefonlar için Dijital Cep Menü
+
+Accra Chocolate
+Accra Chocolate Android Sipariş Uygulaması
+
+Inari Omakase
+Inari Omakase Android Sipariş Uygulaması
+
+MENULUX YENİ NESİL POS SİSTEMLERİ İLE
+Hep bir adım önde olun!
+Bize Ulaşın
+Menulux POS Sistemleri - Beyaz Menulux Logo
+Menulux POS Sistemleri & Dijital Menü Çözümleri
+© 2013 - 2025 Menulux | Tüm Hakları Saklıdır.
+Menulux POS Sistemleri - Sosyal Medya - Instagram Icon
+Menulux POS Sistemleri - Sosyal Medya - Facebook Icon
+Menulux POS Sistemleri - Sosyal Medya - Linkedin Icon
+Menulux POS Sistemleri - Sosyal Medya - Twitter Icon
+Menulux POS Sistemleri - Sosyal Medya - Youtube Icon
+Menulux POS Sistemleri - Sosyal Medya - Pinterest Icon
+BLOG
+DESTEK
+BAYİLİK
+İLETİŞİM
+Menulux POS Sistemleri - Adres IconKocaeli Üniversitesi Teknopark Vatan Cd.
+No:83/B28 Yeniköy 41275 Başiskele/Kocaeli
+Menulux POS Sistemleri - Telefon Icon0850 346 6586
+Menulux POS Sistemleri - Mail Iconinfo@menulux.com
+MENULUX
+Ana Sayfa
+Hakkımızda
+Neden Menulux?
+Referanslar
+Blog
+Bayilik
+Destek
+İletişim
+POS SİSTEMLERİ
+Restoran Pos Sistemi
+Cafe Pos Sistemi
+Market Pos Sistemi
+Tablet Pos Sistemi
+Self-Servis Pos Sistemi
+Web Pos Sistemi
+Paket Sipariş Sistemi
+Cihazlar
+Fiyatlar
+SİPARİŞ ÇÖZÜMLERİ
+Dijital QR Menü
+Dijital Tablet Menü
+Mobil Sipariş App
+Garson El Terminali
+Robot Garson Sistemi
+Self-Order Kiosk
+Kurye Sipariş Yönetimi
+YÖNETİM ARAÇLARI
+Web Portal
+Mobil Rapor
+Stok Yönetimi
+Merkezi Yönetim
+Entegrasyonlar
+POLİTİKALAR
+Gizlilik Politikası
+Satış Sözleşmesi
+KVKK
+© 2013 - 2025 Menulux | Tüm Hakları Saklıdır.
+Google
+5,0
+Menulux POS Sistemleri - Cafe Restoran POS SistemiMenulux POS Sistemleri - Cafe Restoran POS SistemiMenulux POS Sistemleri - Cafe Restoran POS SistemiMenulux POS Sistemleri - Cafe Restoran POS Sistemi
+Simpra Logo
+Restoran Programı
+Otel Programı
+Ödeme
+Simpravan
+Keşfet
+E-Destek
+İletişim
+Giriş Yap
+Ücretsiz Dene
+TR
+|
+EN
+Türkiye’nin
+Akıllı POS Sistemi
+Simpra POS Sistemi ile
+
+işletmenize çağ atlatın
+Her ölçekten işletmeye yönelik özel olarak geliştirilmiş ürünlerimiz sayesinde işletmenizin gerçek potansiyelini yakalayın.
+
+İletişime geçin
+
+Anasayfa » Restoran Otomasyonu » SimpraPOS
+
+Türkiye’nin Akıllı POS Sistemi
+Güçlü POS,
+kusursuz restoran yönetimi
+Simpra: her adımda akıllı restoran yönetimi
+Simpra POS ile tüm rezervasyonlarınızı ve servis organizasyonunuzu tek noktadan kolaylıkla yönetin.
+
+İletişime geçin
+Çoklu gelir merkezi yönetimi
+Çoklu gelir merkezi yönetimi
+Çoklu gelir merkezi yönetimiyle masaya servis, hızlı servis, paket servis ve perakende satışları ister ayrı ayrı, ister birlikte yönetin.
+
+Gerçek zamanlı işletme yönetimi
+Gerçek zamanlı işletme yönetimi
+Raporları, rezervasyonları ve stokları istediğiniz an, istediğiniz yerden takip edin. Kontrol hep sizde olsun.
+
+Tam entegrasyon ile kusursuz operasyon
+Tam entegrasyon ile kusursuz operasyon
+KDS, servis robotu, menuboard, paket servis uygulamaları ve üçüncü parti yazılımlarla tam entegre olarak kesintisiz süreçlere sahip olun.
+
+Merkezi yönetim kolaylığı
+Merkezi yönetim kolaylığı
+Merkezi yönetim özelliğiyle ister tek bir şubeyi, ister onlarca şubeyi aynı kolaylıkla yönetmenin konforunu yaşayın.
+
+Pratik POS sistemi
+Bulut altyapılı sistem
+Esnek ödeme seçenekleri
+Tek ekrandan kolay yönetim
+Gelişmiş entegrasyon ağı
+Kolay tahsilat takibi
+Etkin kampanya iletişimi
+Şüpheli işlem takibi
+Aktif raporlama
+7/24 destek
+Hepsi bir arada
+Eksiksiz restoran yönetimi
+Pratik POS sistemi
+Bulut altyapılı sistem
+Esnek ödeme seçenekleri
+Tek ekrandan kolay yönetim
+Gelişmiş entegrasyon ağı
+Kolay tahsilat takibi
+Etkin kampanya iletişimi
+Şüpheli işlem takibi
+Aktif raporlama
+7/24 destek
+Hepsi bir arada
+Eksiksiz restoran yönetimi
+Pratik POS sistemi
+Bulut altyapılı sistem
+Esnek ödeme seçenekleri
+Tek ekrandan kolay yönetim
+Gelişmiş entegrasyon ağı
+Kolay tahsilat takibi
+Etkin kampanya iletişimi
+Şüpheli işlem takibi
+Aktif raporlama
+7/24 destek
+Hepsi bir arada
+Eksiksiz restoran yönetimi
+Pratik POS sistemi
+Bulut altyapılı sistem
+Esnek ödeme seçenekleri
+Tek ekrandan kolay yönetim
+Gelişmiş entegrasyon ağı
+Kolay tahsilat takibi
+Etkin kampanya iletişimi
+Şüpheli işlem takibi
+Aktif raporlama
+7/24 destek
+Hepsi bir arada
+Eksiksiz restoran yönetimi
+Simpra, bildiğiniz POS sistemlerinden çok farklı
+
+Kolay kurulum ve sorunsuz kullanım
+Özellikler
+Kullanıcı dostu arayüzü ve kolay kurulum süreci ile işletmenizin ihtiyaçlarını karşılamaya Simpra yeter! Simpra’nın özelleştirilebilir modül ve işlevleri ile zaman ve maliyet tasarrufu sağlayın, işinizin kontrolünü elinizde tutun ve başarıya doğru hızla ilerleyin.
+
+
+Güçlü entegrasyon kabiliyeti
+Özellikler
+Simpra POS, işletmenizin ihtiyaçlarına göre özelleştirilebilen ekosistemi ile geniş entegrasyon seçenekleri sunar. Farklı hizmet sağlayıcılar ve sistemlerle kolaylıkla entegre olun ve işletmenizin verimliliğini artırın.
+
+
+7/24 kesintisiz destek
+Özellikler
+Herhangi bir sorunla karşılaştığınızda, uzman destek ekibimiz sizi hızlı ve etkili bir şekilde çözüme kavuşturur. İhtiyaç duyduğunuz an Simpra'ya ulaşın ve operasyonunuzu kesintisiz devam ettirin.
+
+
+3000’den fazla işletme Simpra ile çağ atladı.
+Şimdi sıra sizde!
+"Misafirlerimizin memnuniyeti her zaman önceliğimiz. Onların taleplerine her zaman hızlı dönüş yapmaya çalışıyoruz. Otomasyon anlamında da bizim gibi hızlı aksiyon alabilen Simpra ile çalışıyoruz."
+
+Hakan Yeşilyurt
+
+Akkomarka
+
+
+"QR menü ile kağıt israfını sıfıra çekmiş oluyoruz. Simpra QR Menu ve Simpra POS’un beraber çalışmaları sayesinde yapılan değişiklikleri aynı anda tüm sistemlerde güncelleyebilmek bize sağladığı en büyük kolaylıklardan."
+
+Selçuk Şentepe
+
+Symphony Lounge
+
+
+"Simpra QR Menu'ye geçtikten sonra, fiyat değişiklikleri, ürün güncellemeleri ve yeni ürün eklemeleri yaparken artık QR kodlarını değiştirmemize gerek kalmadı. Bu sayede işletme olarak ciddi bir kârlılık elde ettik."
+
+Alper Korkmaz
+
+Kaen Sushi
+
+
+22 ülke, 4500+ terminal, 115+ milyon işlem.
+Simpra ekosistemi, 3000’den fazla işletmenin geleceğe
+açılan kapısı.
+
+Başarı hikayelerini görün
+
+Simpra entegrasyonları ile
+her şey bir arada!
+30’dan fazla entegrasyon ve 100’den fazla fonksiyon seçeneği, Simpra’nın en büyük gücü.
+Simpra POS, sektördeki en son teknolojilere uyum sağlayarak işletmenizi geleceğe taşır.
+
+Sadakat Programları
+Otel Yönetim Sistemleri
+Paket Servis Uygulamaları
+Ödeme Sistemleri
+Menü Uygulamaları
+Masa Rezervasyon Sistemleri
+Mali Uygulamalar
+e-Dönüşüm Uygulamaları
+ERP Uygulamaları
+Diğer
+
+Como
+
+Sadakat Programları
+
+
+Boostfeel
+
+Sadakat Programları
+
+
+Mikel App
+
+Sadakat Programları
+
+
+EventPay
+
+Sadakat Programları
+
+
+Reztoran Card
+
+Sadakat Programları
+
+
+Gelişmiş Müşteri İndirimi
+
+Sadakat Programları
+
+
+Voi App
+
+Sadakat Programları
+
+
+Zubizu
+
+Sadakat Programları
+
+
+Iga
+
+Sadakat Programları
+
+
+Igapass
+
+Sadakat Programları
+
+
+Kaizen Loyalty Platform
+
+Sadakat Programları
+
+Simpra POS ile neler mümkün?
+Bulut tabanlı sistem
+Bulut tabanlı sistem
+Simpra’nın otomatik güncellenen bulut altyapısı sayesinde verilerinize her yerden erişin, güvenle depolayın, sunucu maliyetini sıfırlayın.
+
+Anlık hızlı güncelleme
+Güvenli veri saklama
+Verimli kaynak yönetimi
+Esnek ödeme seçenekleri
+Esnek ödeme seçenekleri
+Simpra POS, işletmenizin ihtiyaçlarına uyum sağlar. Simpra POS’u kullanmadığınız dönemlerde aboneliğinizi duraklatın, ihtiyacınız olduğunda hızlıca aktifleştirin!
+
+Lisans duraklatma avantajı
+Kolay lisans başlatma/durdurma
+İhtiyaca göre abonelik seçenekleri
+Tek ekrandan kolay yönetim
+Tek ekrandan kolay yönetim
+Simpra POS ile tüm işlemlerinizi tek cihazdan yönetin ve kontrolün her zaman sizde olduğunu bilin. Akıllı telefonunuzla süreçleri yönlendirin, operasyonu hızlandırın.
+
+Tüm operasyonlar aynı ekranda
+Kolay dijital operasyon
+Sipariş, satış, e-Belge süreç takibi
+Hazır entegrasyonlar
+Hazır entegrasyonlar
+Simpra Pazar Yeri'ndeki 30'dan fazla entegrasyon seçeneği ile işletmenize uygun en iyi çözümleri seçin ve bütünleşik POS sistemiyle başarıya ulaşın.
+
+İşletmeye uygun alternatifler
+Hızlı entegrasyon avantajı
+Tek ekrandan veri kontrolü
+Paket servis sağlayıcılarla kolay entegrasyon
+Paket servis sağlayıcılarla kolay entegrasyon
+Simpra POS ile farklı platformlardan gelen siparişleri tek ekranda görüntüleyin ve yönetin. Siparişleri alın, kurye atayın ve alternatif ödeme yöntemleriyle müşterilerinize kolaylık sunun.
+
+Çoklu sipariş yönetimi
+Kurye takibi
+Çoklu platform senkronizasyonu
+Kolay tahsilat takibi
+Kolay tahsilat takibi
+Simpra POS'un cari takip uygulamasıyla finansal süreçlerinizi rahatlıkla yönetin. Müşteri profillerini özelleştirin ve ödeme zamanlarını asla kaçırmayın.
+
+İndirim tanımlama seçenekleri
+Kusursuz cari hesap takibi
+Seçenekli tahsilat avantajı
+Kusursuz kampanya iletişimi
+Kusursuz kampanya iletişimi
+Simpra'nın kampanya modülü sayesinde, işletmeniz için etkili ve özelleştirilebilir kampanyalar oluşturarak müşteri ilişkilerinizi güçlendirin; hedef kitlenizle kusursuz iletişim kurarak maksimum başarıya ulaşın.
+
+Özelleştirilebilir kampanyalar
+Entegre müşteri veri analizi
+Pazarlama stratejileri geliştirme
+Şüpheli işlem takibi
+Şüpheli işlem takibi
+İşletmeniz için özel şüpheli işlem senaryoları oluşturun ve olay anında Simpra'nın sizi bilgilendirmesini sağlayarak güvende kalın; riskleri ortadan kaldırın.
+
+Riskli işlem kurgusu oluşturma
+Anlık bildirimler
+Şüpheli işlem geçmişi araştırma
+Simpra AI Önerileri
+Simpra AI Önerileri
+Simpra AI Önerileri yapay zeka gücüyle işletmenizin binlerce satış verisini analiz eder ve işletmelere en trend menü ürünlerini listeler.
+
+Yapay zeka günü
+Trend ürün önerileri
+Binlerce satış verisi analizi
+Kullanılan Teknolojiler
+Simpra POS'un temel taşı olan bu teknolojiler,
+işletmenizin geleceğini şekillendirmek üzere bir araya gelmiştir.
+
+
+Ruby
+
+
+PostgreSQL
+
+
+Redis
+
+
+VueJS
+
+
+AWS
+
+
+Docker
+
+Simpra POS, modüller ile daha güçlü
+Hediye kartı modülü ile daha iyi müşteri deneyimi
+
+Özelleştirilebilir yapı
+Farklı işletme türleri için farklı hediye senaryoları oluşturun, daha kişisel bir deneyim sunun.
+
+
+Süreli kullanım
+Belirli bir tarihe kadar geçerli olacak ve belirlenen tutarda kartlar oluşturun.
+
+
+Bakiyeli kullanım
+Bakiye yüklemesi yapabileceğiniz kartlar sayesinde, kullanım sürecini kolaylaştırın ve işletme yönetimini hızlandırın.
+
+
+Bakiye takibi
+Hediye kartı sahiplerine bakiyelerini kolayca takip etme özgürlüğü sunun.
+
+
+PreviousNext
+Garson Sipariş Modülü ile birçok avantaj elde edebilirsiniz
+
+
+Sipariş yönetiminde anlık bilgiler
+Personelinizin müşteriyle iletişime geçerken sergilediği profesyonel bir imaj ile memnuniyetini artırın.
+
+
+Menüyü kolayca yönetin
+Menünüzü kişiselleştirin ve personelinizin daha hızlı ve etkili aksiyon almasını sağlayın.
+
+
+Entegre sistemlerle kusursuz süreç yönetimi
+Sipariş durumunun takibini kolaylaştırırken süreci kusursuz bir şekilde yönetin.
+
+Her işletmeye uygun POS sistemi Simpra’da!
+
+Restoran
+
+Otel Restoranı
+
+Kafe
+
+Pastane
+
+Perakende
+
+Kahve Dükkanı
+
+Bar & Gece Kulübü
+
+Plaj
+İhtiyacınıza uygun
+POS sistemi çözümünü seçin,
+geleceğe adım atın.
+%16 indirim!
+Aylık
+Yıllık
+
+Hızlı ve kolay kurulum
+Simpra'nın kullanıcı dostu arayüzü ve hızlı kurulum süreci, işletmenizin faaliyetlerine hızla devam etmesini sağlar. Teknik detaylarla uğraşmanıza gerek kalmadan, Simpra POS'u kolaylıkla kurun ve işinize hemen başlayın.
+
+
+Esnek ödeme seçenekleri
+Simpra'nın esnek ödeme seçenekleri, işletmenizin ihtiyaçlarına uyum sağlar. Simpra POS’u ihtiyacınız doğrultusunda kullanın, maliyet kontrolünü elinizde tutun.
+
+
+7/24 destek
+Simpra'nın müşteri odaklı hizmet anlayışı, işletmenizin her an destek alabilmesini sağlar. İhtiyacınız olduğunda, tecrübeli destek ekibimize kolayca ulaşın ve sorularınıza hızlı, etkili yanıtlar alın.
+
+
+Sınırsız gelir merkezi oluşturma
+
+
+Gelişmiş menü kalemi konfigürasyonu
+
+
+Çoklu dil desteği
+
+
+Toplu fiyat değişikliği ve ileri tarihli fiyat güncelleme
+
+
+Sınırsız çalışan ve yetki grubu oluşturma
+
+
+QR Menü
+
+
+Döviz ile ödeme alma
+
+
+7/24 destek
+
+
+Merkezi yönetim
+
+
+Raporlama
+
+
+Yazılım güncelleme
+
+
+Veri saklama ve barındırma
+
+1.250₺
++KDV
+Hemen Başla
+
+Simpra ürünlerini yakından tanıyın
+Simpra POS
+Simpra POS’un kullanıcı dostu arayüzünü ve gelişmiş özellikleri sayesinde operasyonunuzu nasıl yönetebileceğinizi keşfedin.
+
+Hemen Başla
+Youtube Preview
+
+İndir ve Kullan
+İndir ve kullan
+Simpra her platformda kusursuz çalışır. Platformunu seç, yükle ve hızlıca kullanmaya başla.
+
+Masaüstü
+
+Mac
+
+
+macOS 11 veya daha yeni sürümleri ve Apple M1 veya üzeri çipe sahip Mac gerektirir.
+Simpra Pos - MacOS
+Windows
+
+
+Windows 10 veya daha yeni sürümleri gerekir. Benchmark değeri minimum 1600 olmalıdır.
+Simpra Pos - Desktop
+Linux
+
+
+Simpra’yı Linux işletim sisteminde de kullanabilirsiniz.
+Simpra Pos - Linux
+Mobil
+
+iOS
+
+
+iOS 15 veya daha yeni sürümleri gerekir.
+SIMPRA POS - Cloud Based RMS
+Android
+
+
+Android 8.1 veya daha yeni sürümleri gerekir.
+SIMPRA POS - Restoran Programı
+Sıkça Sorulan Sorular
+POS sistemi; işletmelerin sipariş, ödeme, stok, raporlama ve rezervasyon gibi tüm süreçlerini takip edebilmelerini ve verimli bir şekilde yönetebilmelerini sağlar.
+
+Aylık Bültene Kaydolun
+HoReCa sektöründeki gelişmelerden ve Simpra'dan haberdar olun.
+
+E-mail adresiniz
+Gönder
+Tek platform, sınırsız çözüm: Simpra
+
+Dil Seçimi:
+Türkçe
+
+X PlatformuSimpra Youtube IconSimpra Instagram IconSimpra Facebook Iconsimpra Linkedin Icon
+Bize Ulaşın
+İletişim
++90 (850) 622 84 85
++90 (850) 333 76 75
+info@simprasuite.com
+Açık Rıza Metni
+Aydınlatma Metni
+Gizlilik Politikası
+© 2024 Simpra - Her Hakkı Saklıdır.
+
+Restoran Yazılım Çözümleri
+POS Sistemi
+Restoran Adisyon Programı
+Stok Maliyet Yönetimi
+Sadakat Yönetimi
+QR Menü
+Masa Rezervasyonu
+Mobil Raporlama
+Mutfak Gösterge Sistemi
+Restoran Kurye Takip
+Restoran Kiosk
+Servis Robotu
+Entegrasyonlar
+Konaklama Çözümleri
+PMS
+Online Rezervasyon Motoru
+Kanal Yönetimi
+Google ile Rezervasyon
+Ödeme Çözümleri
+Hızlı Satış
+Mobil Ödeme
+Link ile e-Tahsilat
+Keşfet
+Hakkımızda
+Kariyer
+Referanslar
+Bayilerimiz
+Kullanıcı Hikayeleri
+Güvenlik ve Altyapı Yönetimi
+Simpravan
+Kaynaklar
+Shop
+e-Destek
+Blog
+Giriş Yap
+POS
+Inventory
+Loyalty
+Reservation
+PMS
+Link
+Pay
+Blog
+Cafe Açmak Için Gerekli Belgeler
+Restoran Açmak Için Gerekli Belgeler
+Balık Dükkanı Açmak Için Gerekli Belgeler
+Manav Açmak Için Gerekli Belgeler
+Pastane Açmak Için Neler Gerekli
+Cafe Işletmeciliği Püf Noktaları
+Restoran Konseptleri
+Kafeye Müşteri Çekme Yöntemleri
+Garsonluğun Püf Noktaları
+Restaurant Işletmeciliği
+Restoran Müdürü Ne İş Yapar
+Restaurant Tanıtım Yazısı Örnekleri
+Restoran Nasıl İşletilir
+Steakhouse Restoranı Açmak

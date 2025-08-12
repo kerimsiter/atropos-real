@@ -1,0 +1,841 @@
+Get started
+React
+Overview
+Fluent UI for the web is available in two flavors: Fluent UI React and Fabric Core.
+
+Fluent UI React
+Fluent UI React is the official open-source React front-end framework designed to build experiences that fit seamlessly into a broad range of Microsoft products. It provides robust, up-to-date, accessible components which are highly customizable using CSS-in-JS. Get started with Fluent UI React
+
+Fabric Core
+Fabric Core is an open-source collection of CSS classes and Sass mixins that give you access to colors, animations, fonts, icons and grid. Get started with Fabric Core
+
+For Designers
+Fluent UI also provides resources to help you use our design language in your site.
+
+Fluent UI React
+Getting started developing with Fluent UI React is simple!
+
+To quickly try out Fluent UI React, you can use our "Hello World" templates on CodePen or CodeSandbox.
+
+You can also add Fluent UI React to an existing project or use one of our starter kits to create a new project.
+
+Add to existing project
+Fluent UI React is available via the @fluentui/react npm package. To use this package in an existing project:
+
+# with npm
+npm install @fluentui/react
+
+# with yarn
+yarn add @fluentui/react
+import { PrimaryButton } from '@fluentui/react';
+Start a new Fluent UI React project
+The easiest way to create a new project with Fluent UI is using our Create React App template @fluentui/cra-template.
+
+Make sure you have the latest LTS Node.js installed, then open a terminal and run the following (using your desired app name instead of my-app):
+
+# Option 1: using npx/npm
+npx create-react-app my-app --template @fluentui/cra-template
+cd my-app
+npm start
+
+# Option 2: using yarn
+yarn create react-app my-app --template @fluentui/cra-template
+cd my-app
+yarn start
+Next steps with Fluent UI React
+Now you're ready to explore Fluent UI controls and use them in your app!
+
+To learn more about Fluent UI React, check out the links below.
+
+Tutorials
+For more detailed tutorials about developing and testing Fluent UI React apps, see the day 2 and bonus sections of this frontend bootcamp material.
+
+Fluent UI React wiki
+The Fluent UI React wiki has information about advanced usage, building and contributing to Fluent UI React, and more.
+
+Styling and theming
+Fluent UI React components are highly customizable using CSS-in-JS. We also support customization of colors and more throughout the entire app using themes.
+
+For an overview of styling and theming approaches in Fluent UI, see this page. Then check out the links below for more details:
+
+Theme designer
+Customizing CSS-in-JS styled components
+Theming deep dive
+Fabric Core
+Fabric Core is a collection of CSS classes and Sass mixins that give you access to the colors, animations, fonts, icons and grid of the Fluent Design Language.
+
+Who should use Fabric Core
+Fabric Core is primarily meant for non-React applications or static pages.
+
+If you're using Fluent UI React, you may not need Fabric Core. Most of the styles from Fabric Core are also available via CSS-in-JS styling, which is the recommended styling approach with Fluent UI React.
+
+Adding Fabric Core to your site
+To add the latest version of Fabric Core to your site, link to this CSS file in the <head> of your webpage. (For the MDL2 styles used in Fabric 6, replace 11.1.0 with 9.6.1 in the href.)
+
+<link
+  rel="stylesheet"
+  href="https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/office-ui-fabric-core/11.1.0/css/fabric.min.css"
+/>
+Fabric Core is also available via npm as office-ui-fabric-core, or you can download a copy to include in your project.
+
+Using Fabric Core class names
+To use the styles, add the ms-Fabric class to a containing element, such as <body>, to set the font-family for all Fabric Core typography classes used within that element. Then apply the Fabric Core styles directly to your HTML elements.
+
+<body class="ms-Fabric" dir="ltr">
+  <span class="ms-font-su ms-fontColor-themePrimary">Big blue text</span>
+</body>
+Use our design language in your site
+Styles
+Fluent UI gives you access to Segoe, Microsoft’s official typeface, along with the color palette, type ramp, icons, and responsive grid. Learn more
+
+Icons
+Fluent UI includes Microsoft 365's official product icons. Fluent UI also provides a suite of product and document symbols, so you can use the same metaphors we use. Learn more
+
+Controls
+Controls are the building blocks of your UI. Fluent UI has a variety of controls, including navigation, commands, containers, and content. Learn more
+
+Design toolkits
+Our Fluent UI design toolkits provide styles, controls and layout templates that enable you to create beautiful and coherent Microsoft experiences. Learn more
+
+Usage of Fluent UI assets, such as fonts and icons, is subject to the assets license agreement.Install
+Fluent UI should be installed as a dependency of your app.
+
+yarn add @fluentui/react-components
+Copy
+Setup
+Fluent UI components are styled using CSS in JS. This technique requires a style renderer which inserts CSS into DOM when needed. React context is used to provide the style renderer.
+
+Place a <FluentProvider /> at the root of your app and pass theme as a prop.
+
+React 18
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+
+import App from './App';
+
+const root = createRoot(document.getElementById('root'));
+
+root.render(
+  <FluentProvider theme={webLightTheme}>
+    <App />
+  </FluentProvider>,
+);
+Copy
+React 17
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { FluentProvider, webLightTheme } from '@fluentui/react-components';
+
+import App from './App';
+
+ReactDOM.render(
+  <FluentProvider theme={webLightTheme}>
+    <App />
+  </FluentProvider>,
+  document.getElementById('root'),
+);
+Copy
+Usage
+That's it. You can now use Fluent UI components in your app.
+
+import React from 'react';
+import { Button } from '@fluentui/react-components';
+
+export default () => <Button appearance="primary">Get started</Button>;
+Copy
+Strict mode
+We are aware of some strict mode bugs when using Fluent UI v9 in React 18. These bugs only show up in strict mode, and they will not stop the rest of your app from running. You can track the bugs on Github and learn how they will affect your application.
+
+SSR with Next.js
+To avoid strict mode hydration issues, you can disable strict mode in your Next.js app by adding the following configuration to your next.config.js file:
+
+module.exports = {
+  reactStrictMode: false,
+};
+Styling components
+Visit the Styling handbook for a comprehensive styling guide, as this article only introduces basics to get you started quickly.
+
+Getting started
+To style Fluent UI React v9 components makeStyles is used. makeStyles comes from Griffel a homegrown CSS-in-JS implementation which generates atomic CSS classes.
+
+Get started by simply importing:
+
+import { makeStyles } from '@fluentui/react-components';
+Copy
+To style a component, you need to call makeStyles in a module scope to create a React hook to be used inside a component.
+
+The makeStyles call accepts an object of items where each key is a unique identifier and each value is an object with styles. The call returns an object with classes mapped to these unique identifiers.
+
+import { makeStyles } from '@fluentui/react-components';
+
+const useStyles = makeStyles({
+  root: { color: 'red' },
+});
+
+function Component() {
+  const classes = useStyles();
+
+  return <div className={classes.root} />;
+}
+Copy
+Merging component styles
+There are cases where you need to merge classes from multiple useStyles calls.
+
+⚠ It is not possible to simply concatenate useStyles classes
+To properly merge the classes, you need to use mergeClasses() function, which performs merge and deduplication of atomic classes generated by makeStyles().
+
+When mergeClasses() is called, it merges all classes from first to last - the latter argument overwrites the previous ones (similar to Object.assign()).
+
+import { makeStyles, mergeClasses } from '@fluentui/react-components';
+
+const useStyles = makeStyles({
+  blueBold: {
+    color: 'blue',
+    fontWeight: 'bold',
+  },
+  red: {
+    color: 'red',
+  },
+});
+
+function Component() {
+  const classes = useStyles();
+
+  const first = mergeClasses(classes.blueBold, classes.red); // { color: 'red', fontWeight: 'bold' }
+  const second = mergeClasses(classes.red, classes.blueBold); // { color: 'blue', fontWeight: 'bold' }
+}
+Copy
+Mapping props and state to styles
+Both makeStyles and mergeClasses are simple. They are unaware of component state and props. Developers should merge and apply appropriate parts of the useStyles call based on their requirements.
+
+import { makeStyles } from '@fluentui/react-components';
+
+const useStyles = makeStyles({
+  root: { color: 'red' },
+  rootPrimary: { color: 'blue' },
+});
+
+function Component(props) {
+  const classes = useStyles();
+
+  return <div className={mergeClasses('ui-component', classes.root, props.primary && classes.rootPrimary)} />;
+}
+Copy
+Applying classes passed from parent
+The same approach is used to apply classes passed from parent component. Again, you need to use mergeClasses() to properly merge and deduplicate the classes. Note again, that the order of application is important in mergeClasses() so that parent classes overwrite component classes.
+
+import { mergeClasses } from '@fluentui/react-components';
+
+function Component(props) {
+  const classes = useStyles();
+
+  return <div className={mergeClasses(classes.root, props.className /* these definitions have higher precedence */)} />;
+}
+Copy
+Applying theme to styles
+No matter what theme is used, the component styles are always the same. The only way to change the component styling is through theme tokens which can be used in style values.
+
+import { makeStyles, tokens } from '@fluentui/react-components';
+
+const useStyles = makeStyles({
+  root: { display: 'flex' },
+  rootPrimary: { color: tokens.colorNeutralForeground3 },
+});
+Copy
+Those tokens are resolved to CSS variable usages. The FluentProvider component is responsible for setting the CSS variables in DOM and changing them when the theme changes. When the theme is switched, only the variables are changed, all styles remain the same.
+
+For more details on, see Theming.
+
+Incorrect usages
+This section shows and describes anti-patterns which should never be used.
+
+import { makeStyles, mergeClasses } from '@fluentui/react-components';
+
+const useStyles = makeStyles({
+  root: { color: 'red' }, // Do not use colors directly as those are not theme-able. Always use colors from a theme
+});
+
+function Component(props) {
+  const classes = useStyles();
+
+  const wrongClasses = classes.root + ' ' + props.className; // Never concatenate class strings, always use mergeClasses()
+  const wrongClasses2 = mergeClasses(props.className, classes.root); // Incorrect order of classes - as the latest wins, props.className should be last to override the component styles
+}
+Copy
+Debugging styles
+Griffel devtools chrome extension can be used to debug style overrides. It shows all griffel styles applied on the currently selected DOM element, including the styles that are overridden in mergeClasses.
+
+Limitations
+Griffel's approach to styling comes with certain limitations. One of which is the lack of support for CSS shorthand properties. To work around this, Griffel provides a collection of shorthand functions to write css shorthand. Their usage is demonstrated in the next example.
+
+Overriding FUI component styles
+To override an appearance of a FUI component, you use the exactly same approach - You call makeStyles/useStyles in your code and pass the resulting classes through props.
+
+import { makeStyles, tokens, shorthands } from '@fluentui/react-components';
+import { CallEndRegular } from '@fluentui/react-icons';
+
+const useOverrides = makeStyles({
+  button: { color: tokens.colorNeutralForeground3 },
+  buttonIcon: {
+    ...shorthands.border('1px', 'solid', tokens.colorNeutralStroke1),
+  },
+  link: { fontWeight: 'bold' },
+});
+
+function MyComponent() {
+  const overrides = useOverrides();
+
+  return (
+    <>
+      <Button className={overrides.button} icon={{ className: overrides.buttonIcon, children: <CallEndRegular /> }} />
+      <Link className={overrides.link} />
+    </>
+  );
+}Positioning Components
+Theme
+LTR
+
+RTL
+Fluent components that make use of positioning can all be configured in the same way. Some components which make use of positioned DOM elements are:
+
+Tooltip
+Menu
+Popover
+Fluent components that have slots which are positioned will always expose a positioning prop where the positioning of the slot can be configured.
+
+Below you can try out the different positioning options in the playground. Further examples try to explain more clearly different configuration options for the positioning prop.
+
+Best practices
+These examples are intended to document the positioning prop used in Fluent UI React, please refer to component specific documentation for best practices for a specific component.
+
+Default
+
+
+
+Click me
+Open in Stackblitz
+Show code
+Name	Description	Default
+positioningRef	
+An imperative handle to Popper methods.
+Ref<PositioningImperativeRef>
+-
+target	
+Manual override for the target element. Useful for scenarios where a component accepts user prop to override target
+TargetElement
+null
+-
+position	
+Position for the component. Position has higher priority than align. If position is vertical ('above' | 'below')
+
+and align is also vertical ('top' | 'bottom') or if both position and align are horizontal ('before' | 'after'
+
+and 'start' | 'end' respectively),
+
+then provided value for 'align' will be ignored and 'center' will be used instead.
+
+"before"
+"after"
+"above"
+"below"
+-
+align	
+Alignment for the component. Only has an effect if used with the
+"center"
+"start"
+"end"
+"bottom"
+"top"
+-
+arrowPadding	
+Defines padding between the corner of the popup element and the arrow. Use to prevent the arrow from overlapping a rounded corner, for example.
+
+number
+-
+autoSize	
+Applies styles on the positioned element to fit it within the available space in viewport.
+
+true: set styles for max height/width.
+'height': set styles for max height.
+'width'': set styles for max width. Note that options 'always'/'height-always'/'width-always' are now obsolete, and equivalent to true/'height'/'width'.
+AutoSize
+-
+coverTarget	
+Modifies position and alignment to cover the target
+boolean
+-
+fallbackPositions	
+If flip fails to stop the positioned element from overflowing its boundaries, use a specified fallback positions.
+
+PositioningShorthandValue[]
+-
+flipBoundary	
+The element which will define the boundaries of the positioned element for the flip behavior.
+PositioningBoundary
+null
+-
+offset	
+Lets you displace a positioned element from its reference element. This can be useful if you need to apply some margin between them or if you need to fine tune the position according to some custom logic.
+
+Offset
+-
+overflowBoundary	
+The element which will define the boundaries of the positioned element for the overflow behavior.
+PositioningBoundary
+null
+-
+overflowBoundaryPadding	
+Applies a padding to the overflow bounadry, so that overflow is detected earlier before the positioned surface hits the overflow boundary.
+
+number | Partial<{ top: number; end: number; bottom: number; start: number; }>
+-
+pinned	
+Disables automatic repositioning of the component; it will always be placed according to the values of align and position props, regardless of the size of the component, the reference element or the viewport.
+
+boolean
+-
+strategy	
+Specifies the type of CSS position property to use.
+"fixed"
+"absolute"
+"absolute"
+useTransform	
+Modifies whether popover is positioned using transform.
+boolean
+true
+matchTargetSize	
+When set, the positioned element matches the chosen dimension(s) of the target element
+"width"
+-
+onPositioningEnd	
+Called when a position update has finished. Multiple position updates can happen in a single render, since positioning happens outside of the React lifecycle.
+
+It's also possible to listen to the custom DOM event fui-positioningend
+
+(() => void)
+-
+disableUpdateOnResize	
+Disables the resize observer that updates position on target or dimension change
+boolean
+-
+shiftToCoverTarget	
+When true, the positioned element will shift to cover the target element when there's not enough space.
+boolean
+false
+Stories
+Default
+Click me
+Show code
+Shorthand Positions
+If you only need to configure the placement of the positioned element, you can use a shorthand syntax to avoid using a full blown javascript object.
+
+Click each button to see its positioned element
+
+above-start
+↑
+
+above
+
+above-end
+↑
+
+before-top
+↑
+
+before
+
+before-bottom
+↑
+
+after-top
+↑
+
+after
+
+after-bottom
+↑
+
+below-start
+↑
+
+below
+
+below-end
+↑
+Open in Stackblitz
+Show code
+Cover Target
+It is also possible to position the element in such a way that it covers the target element. The position and align properties work in the same way but with an added offset to move the positioning element on the target element.
+
+Click each button to see its positioned element
+
+above-start
+↑
+
+above
+
+above-end
+↑
+
+before-top
+↑
+
+before
+
+before-bottom
+↑
+
+after-top
+↑
+
+after
+
+after-bottom
+↑
+
+below-start
+↑
+
+below
+
+below-end
+↑
+Open in Stackblitz
+Show code
+Offset Value
+The positioned element can be offset from the target element. The offset value can be set either by:
+
+An object with mainAxis and crossAxis values
+A function that returns the object value
+crossAxis
+10
+mainAxis
+10
+Click me
+Click me
+Open in Stackblitz
+Show code
+Offset Function
+The positioned element can be offset from the target element by using a callback function. The callback function provides the following arguments:
+
+Dimensions and position of the positioned element
+Dimensions and position of the reference element
+The position value
+(optionally) The alignment value
+Click me
+Open in Stackblitz
+Show code
+Anchor To Target
+Components with positioned slots will generally also contain the target which the positioned element will anchor on. It is also possible to select another DOM element for the anchor of the positioned slot. This can be useful in scenarios where the same instance of a positioned component needs to be reused.
+
+Click me
+Target
+Open in Stackblitz
+Show code
+Imperative Anchor Target
+The positioningRef positioning prop provides an imperative handle to manually position an element. The target can be a normal HTML element or a virtual element such as a coordinate on the viewport. This can be useful to reduce the number of renders required, for example when the positioned element follows the mouse cursor
+
+This example creates a virtual element that follows the coordinates of the mouse cursor.
+
+Move the mouse in here
+Open in Stackblitz
+Show code
+Imperative Position Update
+The positioningRef positioning prop provides an imperative handle to reposition the positioned element. In this example the updatePosition command is used to reposition the popover when its target button is dynamically moved.
+
+⚠️ In later versions of Fluent UI, position updates are triggered once the target or container dimensions change. This was previously the main use case for imperative position updates. Please think carefully if your scenario needs this pattern in the future.
+
+Move the button with the slider
+
+Popover
+Open in Stackblitz
+Show code
+Overflow Boundary
+The overflow boundary can be configured manually so that the positioned element stays within bounds for different alignments
+
+
+Open
+Align: end
+Align: end
+Open in Stackblitz
+Show code
+Overflow Boundary Rect
+Boundaries can be also defined as Rect objects. This is useful when a boundary is not an actual element, but some kind of computed values.
+
+
+align: start
+
+align: start
+Open in Stackblitz
+Show code
+Overflow Boundary Padding
+The overflowBoundaryPadding property sets the padding between the positioned element and the chosen boundary. The padding can be a shorthand number which applies for all sides, or an object That explicitly sets the padding for each side.
+
+Design guidance recommenends using 8px or 4px if a padding is required. Custom values are also possible but should stay within a 4px grid, please consult your designer if a custom padding is required.
+
+
+Open
+Padding
+8
+
+Shorthand padding
+Longhand padding
+Open in Stackblitz
+Show code
+Flip Boundary
+The flip boundary can be configured manually so that the positioned element stays within bounds for different positions
+
+
+Open
+Position: above
+Position: below
+Open in Stackblitz
+Show code
+Match Target Size
+The matchTargetSize option will automatically style the positioned element so that the chosen dimension matches that of the target element. This can be useful for autocomplete or combobox input fields where the popover should match the width of the text input field.
+
+⚠️ Make sure that the positioned element use box-sizing: border-box
+
+Click me
+Open in Stackblitz
+Show code
+Disable Transform
+By default, the positioned element is positioned using CSS transform in the element style for better performance, but can be disabled by setting useTransform to false.
+
+If you would like to retain transform styles while allowing transform animations, leave the popover surface the positioned one, and make its child node the actual styled element.
+
+Click me
+Open in Stackblitz
+Show code
+Listen To Updates
+Positioning happens outside of the React render lifecycle for performance purposes so that a position update does not need to:
+
+trigger by a re-render
+be dependent on a re-render
+This constraint makes it difficult to know exactly when an element has been positioned. In order to listen to position updates you can use the onPositioningEnd callback.
+
+⚠️ Very few use cases would actually require listening to position updates. Please remember that there is a difference between this and the open/close state which is normally handled in React
+
+Open popover
+Status log
+Open in Stackblitz
+Show code
+Auto Size For Small Viewport
+autoSize sets inline max-width and max-height styles to the element to ensure it fits within the available space.
+
+
+Open
+Menu Item Count
+10
+
+AutoSized Menu
+Open in Stackblitz
+Show code
+Cover Target For Small Viewport
+shiftToCoverTarget is a positioning option that allows the positioned element to shift and cover the target element when there isn't enough space available to fit it.
+
+
+Open
+Menu position
+
+above
+
+after
+Menu Item Count
+6
+
+Open Menu
+Open in Stackblitz
+Show code
+Fallback Positions
+When there's no enough space the listbox is opened from the right or left side. This behavior can be changed by using fallbackPositions prop.
+Theming
+The Fluent UI Theme is represented by a set of tokens. Each token resolves to a single value which can be assigned to a CSS property.
+
+const exampleTheme = {
+  borderRadiusSmall: '2px',
+  //...
+  colorNeutralForeground2: '#424242',
+};
+Copy
+You can browse all the available tokens in Theme section of the docs.
+
+How theme is applied
+No matter what theme is used, the component styles are always the same. The only way to change the component styling is through theme tokens which can be used in style values.
+
+Those tokens are resolved to CSS variables. The FluentProvider component is responsible for setting the values of the CSS variables in DOM and changing them when the theme changes. When the theme is switched, only the variables are changed, all styles remain the same.
+
+Place a <FluentProvider /> at the root of your app and pass a theme to the theme prop. The provider will render a div and set all tokens as CSS variables on that element. The provider also propagates CSS variables to React portals created with Portal component.
+
+import { FluentProvider, teamsLightTheme } from '@fluentui/react-components';
+
+export const AppRoot = ({children}) => (
+  <FluentProvider theme={teamsLightTheme}>
+    {children}
+  </FluentProvider>,
+);
+Copy
+Import tokens to style a component using makeStyles
+
+import { tokens } from '@fluentui/react-components';
+
+const useStyles = makeStyles({
+  root: { display: 'flex' },
+  rootPrimary: { color: tokens.colorNeutralForeground3 },
+});
+
+export Component = props => {
+  const classes = useStyles();
+
+  return <div className={mergeClasses('ui-component', classes.root, props.primary && classes.rootPrimary)} />;
+}
+Copy
+For more details, see Styling components.
+
+Do not use CSS variables directly
+⚠ Never use theme CSS variables directly! The CSS variables implementation of the theme is internal to the library. We might eventually decide to change the variable names, hash them or even use direct values instead of some variables. Always use the tokens to access the theme.
+
+Available themes
+Fluent UI currently exports following themes:
+
+Web Light (webLightTheme)
+Web Dark (webDarkTheme)
+Teams Light (teamsLightTheme)
+Teams Dark (teamsDarkTheme)
+Teams High Contrast (teamsHighContrastTheme)
+High contrast themes
+⚠ Do not use High Contrast themes! All Fluent UI components support Windows High Contrast mode automatically regardless of the active theme. Windows high contrast mode is the recommended high contrast platform for all customers using Fluent UI.
+
+Hardcoded High Contrast themes are considered legacy, to be used only in applications which explicitly support those.
+
+Customizing the theme
+Applications can customize a theme in multiple ways.
+
+Custom Brand ramp
+The brand ramp is a color ramp going from dark to light colors:
+
+Example of a brand ramp
+A theme is derived from a brand ramp. To use a theme with a custom brand ramp, instead of importing a predefined theme, you can use theme factory functions.
+
+The following factory functions are available:
+
+createLightTheme()
+createDarkTheme()
+createTeamsDarkTheme()
+createHighContrastTheme()
+import { BrandVariants, createLightTheme, createDarkTheme } from '@fluentui/react-components';
+
+const customBrandRamp: BrandVariants = {
+  10: '#008',
+  //...
+  160: '#88F',
+};
+
+export const customLightTheme = createLightTheme(customBrandRamp);
+export const customDarkTheme = createDarkTheme(customBrandRamp);
+Copy
+Overriding existing tokens
+⚠️ If the existing tokens do not fulfill your needs, you should talk to your designer instead of overriding tokens.
+
+A theme is a flat object containing { [token name]: CSS value } pairs. You can copy the object and overwrite any tokens you wish.
+
+import { webLightTheme, Theme } from '@fluentui/react-components';
+
+export const customLightTheme: Theme = {
+  ...webLightTheme,
+  colorNeutralForeground1: '#555', // overriden token
+};
+Copy
+Extending theme with new tokens
+It's often useful for an app to extend the base set of tokens from Fluent UI. This process will help consuming teams or libraries add more tokens, but sharing them is outside the scope of this doc.
+
+⚠ Warning that adding more tokens adds more CSS variables which can effect run time performance as each DOM Node carries all the tokens.
+
+import { makeStyles, themeToTokensObject, webLightTheme, FluentProvider, Theme } from '@fluentui/react-components';
+
+// You can pass your own custom tokens to a theme and pass that to the provider.
+type CustomTheme = Theme & {
+  tokenA: string;
+  tokenB: string;
+  tokenC: string;
+};
+const customTheme: CustomTheme = { ...webLightTheme, tokenA: 'red', tokenB: 'blue', tokenC: 'green' };
+function App() {
+  return <FluentProvider theme={customTheme}>{/* ... */}</FluentProvider>;
+}
+
+// ...
+
+// You can construct a custom tokens object by yourself.
+const customTokens: Record<keyof CustomTheme, string> = {
+  ...tokens,
+  tokenA: `var(--tokenA)`,
+  tokenB: `var(--tokenB)`,
+  tokenC: `var(--tokenC)`,
+};
+
+// You can alternatively use the themeToTokensObject function to construct the custom tokens object.
+// Note: If you do it via the themeToTokensObject you might see a negative effect on tree-shaking since bundles won't know the shape of the output.
+const alternativeCustomTokens = themeToTokensObject(customTheme);
+
+// You can then use this custom tokens object inside your styles.
+const useStyles = makeStyles({
+  base: {
+    color: customTokens.tokenA,
+    backgroundColor: customTokens.tokenB,
+    outlineColor: customTokens.tokenC,
+  },
+});React Version Support
+ℹ️ Note: Our migration docs focus solely on FluentUI related changes.
+
+If you're migrating between React major versions, please refer to the official React documentation for comprehensive migration guides.
+
+For migrating your codebase TypeScript types, you can leverage Types React Codemod
+
+React 17
+Full support starting @fluentui/react-components v9.0.0.
+
+React 18
+Full support starting @fluentui/react-components v9.66.0.
+
+Migration
+💡 Check Following PR for further details https://github.com/microsoft/fluentui/pull/34456
+
+Runtime/API changes:
+NONE
+
+TypeScript types changes:
+Slot Children as a Function
+Because @types/react@18 Breaking Changes, we needed to loosen Slot children property to any.
+
+This change will affect users that use Slot children as a function in conjunction with TypeScript strict mode.
+
+If that's your case, TypeScript will fail on noImplicitAny. To mitigate this you need to add type assertions (satisfies SlotRenderFunction<T>)
+
+Before:
+
+import * as React from 'React';
+
+<Button
+  // children was inferred as union of ReactNode and SlotRenderFunction
+  icon={{ children: (Component, props) => <Component {...props /> }}
+>
+Label
+</Button>
+Copy
+After:
+
+import * as React from 'React';
+import { type SlotRenderFunction } from '@fluentui/react-utilities';
+
+<Button
+  icon={{
+    // children is now `any` and needs to be asserted as `SlotRenderFunction`
+    children: ((Component, props) => <Component {...props} />) satisfies SlotRenderFunction<
+      React.ComponentProps<'span'>
+    >,
+  }}
+>
+  Label
+</Button>;
