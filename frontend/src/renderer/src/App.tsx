@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Button } from '@fluentui/react-components'
 import Versions from './components/Versions'
 import electronLogo from './assets/electron.svg'
 
@@ -40,9 +41,9 @@ function App(): React.JSX.Element {
       </div>
       <div style={{ padding: 24, fontFamily: 'Inter, system-ui, Arial' }}>
         <h1>Atropos Desktop</h1>
-        <button onClick={handleCheckHealth} style={{ padding: '8px 12px', cursor: 'pointer' }}>
+        <Button appearance="primary" onClick={handleCheckHealth}>
           Backend Durumunu Kontrol Et
-        </button>
+        </Button>
         <p style={{ marginTop: 12 }}>{apiResponse}</p>
       </div>
       <div style={{ padding: 24, fontFamily: 'Inter, system-ui, Arial' }}>
