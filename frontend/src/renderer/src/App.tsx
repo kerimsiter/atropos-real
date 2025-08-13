@@ -1,10 +1,14 @@
 import { useState } from 'react'
-import { Button } from '@fluentui/react-components'
 import Versions from './components/Versions'
 import electronLogo from './assets/electron.svg'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { useAuthStore } from './stores/auth.store'
+import LoginPage from './pages/LoginPage'
+import HomePage from './pages/HomePage'
 
 function App(): React.JSX.Element {
   const [apiResponse, setApiResponse] = useState('Henüz kontrol edilmedi.')
+  const isAuthenticated = useAuthStore((s) => s.isAuthenticated)
   const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
   const handleCheckHealth = async (): Promise<void> => {
     try {
@@ -17,44 +21,17 @@ function App(): React.JSX.Element {
   }
 
   return (
-    <>
-      <img alt="logo" className="logo" src={electronLogo} />
-      <div className="creator">Powered by electron-vite</div>
-      <div className="text">
-        Build an Electron app with <span className="react">React</span>
-        &nbsp;and <span className="ts">TypeScript</span>
-      </div>
-      <p className="tip">
-        Please try pressing <code>F12</code> to open the devTool
-      </p>
-      <div className="actions">
-        <div className="action">
-          <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">
-            Documentation
-          </a>
-        </div>
-        <div className="action">
-          <a target="_blank" rel="noreferrer" onClick={ipcHandle}>
-            Send IPC
-          </a>
-        </div>
-      </div>
-      <div style={{ padding: 24, fontFamily: 'Inter, system-ui, Arial' }}>
-        <h1>Atropos Desktop</h1>
-        <Button appearance="primary" onClick={handleCheckHealth}>
-          Backend Durumunu Kontrol Et
-        </Button>
-        <p style={{ marginTop: 12 }}>{apiResponse}</p>
-      </div>
-      <div style={{ padding: 24, fontFamily: 'Inter, system-ui, Arial' }}>
-        <h1>Atropos Desktop</h1>
-        <button onClick={handleCheckHealth} style={{ padding: '8px 12px', cursor: 'pointer' }}>
-          Backend Durumunu Kontrol Et
-        </button>
-        <p style={{ marginTop: 12 }}>{apiResponse}</p>
-      </div>
+    <HashRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={isAuthenticated ? <HomePage onCheckHealth={handleCheckHealth} apiResponse={apiResponse} ipcHandle={ipcHandle} electronLogo={electronLogo} /> : <Navigate to="/login" replace />}
+        />
+        <Route path="/login" element={isAuthenticated ? <Navigate to="/" replace /> : <LoginPage />} />
+        <Route path="*" element={<Navigate to={isAuthenticated ? '/' : '/login'} replace />} />
+      </Routes>
       <Versions></Versions>
-    </>
+    </HashRouter>
   )
 }
 
