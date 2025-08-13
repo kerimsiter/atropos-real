@@ -4,15 +4,18 @@ export declare class UsersService {
     constructor(prisma: PrismaService);
     findOne(username: string): Promise<{
         id: string;
+        phone: string | null;
+        email: string | null;
+        createdAt: Date;
+        updatedAt: Date;
+        deletedAt: Date | null;
+        password: string;
         username: string;
         companyId: string;
         branchId: string | null;
-        password: string;
         pin: string | null;
         firstName: string;
         lastName: string;
-        email: string | null;
-        phone: string | null;
         avatar: string | null;
         role: import("@prisma/client").$Enums.UserRole;
         permissions: import("@prisma/client/runtime/library").JsonValue | null;
@@ -28,8 +31,5 @@ export declare class UsersService {
         failedLoginCount: number;
         lockedUntil: Date | null;
         version: number;
-        createdAt: Date;
-        updatedAt: Date;
-        deletedAt: Date | null;
     } | null>;
 }

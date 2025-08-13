@@ -1,43 +1,40 @@
-import { Button } from '@fluentui/react-components'
+import {
+  Button,
+  Title1,
+  Card,
+  CardHeader,
+  Title3,
+  Body1
+} from '@fluentui/react-components'
+import { useAuthStore } from '../stores/auth.store'
 
 interface Props {
   onCheckHealth: () => Promise<void>
   apiResponse: string
-  ipcHandle: () => void
-  electronLogo: string
 }
 
-export default function HomePage({ onCheckHealth, apiResponse, ipcHandle, electronLogo }: Props) {
+export default function HomePage({ onCheckHealth, apiResponse }: Props) {
+  const user = useAuthStore((s) => s.user)
+
   return (
-    <>
-      <img alt="logo" className="logo" src={electronLogo} />
-      <div className="creator">Powered by electron-vite</div>
-      <div className="text">
-        Build an Electron app with <span className="react">React</span>
-        &nbsp;and <span className="ts">TypeScript</span>
-      </div>
-      <p className="tip">
-        Please try pressing <code>F12</code> to open the devTool
-      </p>
-      <div className="actions">
-        <div className="action">
-          <a href="https://electron-vite.org/" target="_blank" rel="noreferrer">
-            Documentation
-          </a>
+    <div>
+      <Title1 as="h1" style={{ marginBottom: '24px' }}>
+        Hoş Geldin, {user?.firstName || user?.username}!
+      </Title1>
+      <Card>
+        <CardHeader header={<Title3 as="h3">Sistem Durumu</Title3>} />
+        <div style={{ padding: '16px' }}>
+          <Body1 style={{ marginBottom: '16px' }}>
+            Backend servisinin durumunu kontrol etmek için butona tıklayın.
+          </Body1>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <Button appearance="primary" onClick={onCheckHealth}>
+              Backend Durumunu Kontrol Et
+            </Button>
+            <Body1>{apiResponse}</Body1>
+          </div>
         </div>
-        <div className="action">
-          <a target="_blank" rel="noreferrer" onClick={ipcHandle}>
-            Send IPC
-          </a>
-        </div>
-      </div>
-      <div style={{ padding: 24, fontFamily: 'Inter, system-ui, Arial' }}>
-        <h1>Atropos Desktop</h1>
-        <Button appearance="primary" onClick={onCheckHealth}>
-          Backend Durumunu Kontrol Et
-        </Button>
-        <p style={{ marginTop: 12 }}>{apiResponse}</p>
-      </div>
-    </>
+      </Card>
+    </div>
   )
 }

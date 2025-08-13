@@ -1,5 +1,12 @@
 import { useState } from 'react'
-import { Button, Input, Label } from '@fluentui/react-components'
+import {
+  Button,
+  Input,
+  Label,
+  Title1,
+  Card,
+  CardHeader
+} from '@fluentui/react-components'
 import axios from 'axios'
 import { useAuthStore } from '../stores/auth.store'
 import { jwtDecode } from 'jwt-decode'
@@ -16,11 +23,9 @@ export default function LoginPage() {
     setError(null)
     setLoading(true)
     try {
-      // Backend'de AuthController 'auth' yolunda. Global 'api' prefix yok.
-      // Bu nedenle '/auth/login' kullanıyoruz.
       const res = await axios.post('http://localhost:3000/auth/login', {
         username,
-        password,
+        password
       })
       const token: string = res.data?.access_token
       if (!token) throw new Error('Token alınamadı')
@@ -28,7 +33,7 @@ export default function LoginPage() {
       const user = {
         id: decoded?.sub,
         username: decoded?.username,
-        roles: decoded?.roles,
+        roles: decoded?.roles
       }
       login(token, user)
     } catch (err: any) {
@@ -43,26 +48,50 @@ export default function LoginPage() {
   }
 
   return (
-    <div style={{ maxWidth: 360, margin: '64px auto', fontFamily: 'Inter, system-ui, Arial' }}>
-      <h2>Giriş Yap</h2>
-      <form onSubmit={handleLogin} style={{ display: 'grid', gap: 12 }}>
-        <div>
-          <Label htmlFor="username">Kullanıcı Adı</Label>
-          <Input id="username" value={username} onChange={(e) => setUsername((e.target as HTMLInputElement).value)} required />
-        </div>
-        <div>
-          <Label htmlFor="password">Şifre</Label>
-          <Input id="password" type="password" value={password} onChange={(e) => setPassword((e.target as HTMLInputElement).value)} required />
-        </div>
-        {error && (
-          <div style={{ color: 'crimson', fontSize: 12 }}>
-            {Array.isArray(error) ? error.join(', ') : error}
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <Card style={{ width: '400px', padding: '16px' }}>
+        <CardHeader
+          header={
+            <Title1 as="h1" style={{ textAlign: 'center', width: '100%' }}>
+              Giriş Yap
+            </Title1>
+          }
+        />
+        <form onSubmit={handleLogin} style={{ display: 'grid', gap: '20px', marginTop: '16px' }}>
+          <div style={{ display: 'grid', gap: '4px' }}>
+            <Label htmlFor="username">Kullanıcı Adı</Label>
+            <Input
+              id="username"
+              value={username}
+              onChange={(e) => setUsername((e.target as HTMLInputElement).value)}
+              required
+            />
           </div>
-        )}
-        <Button appearance="primary" type="submit" disabled={loading}>
-          {loading ? 'Giriş Yapılıyor...' : 'Giriş Yap'}
-        </Button>
-      </form>
+          <div style={{ display: 'grid', gap: '4px' }}>
+            <Label htmlFor="password">Şifre</Label>
+            <Input
+              id="password"
+              type="password"
+              value={password}
+              onChange={(e) => setPassword((e.target as HTMLInputElement).value)}
+              required
+            />
+          </div>
+          {error && (
+            <div style={{ color: '#C53929', fontSize: 14, marginTop: '4px' }}>
+              {Array.isArray(error) ? error.join(', ') : error}
+            </div>
+          )}
+          <Button
+            appearance="primary"
+            type="submit"
+            disabled={loading}
+            style={{ marginTop: '16px' }}
+          >
+            {loading ? 'Giriş Yapılıyor...' : 'Giriş Yap'}
+          </Button>
+        </form>
+      </Card>
     </div>
   )
 }
